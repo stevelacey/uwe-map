@@ -1,0 +1,760 @@
+{"poi":[
+{
+  "title": "Centre for Sport",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/sport/'>www.uwe.ac.uk/sport</a></div>",
+  "polygon": [
+    {"lat": 51.504341, "lng": -2.546771},
+    {"lat": 51.504379, "lng": -2.547386},
+    {"lat": 51.504345, "lng": -2.547396},
+    {"lat": 51.504356, "lng": -2.547595},
+    {"lat": 51.503922, "lng": -2.547662},
+    {"lat": 51.503902, "lng": -2.547316},
+    {"lat": 51.504017, "lng": -2.547297},
+    {"lat": 51.503990, "lng": -2.546822},
+    {"lat": 51.504341, "lng": -2.546771}
+  ]
+},
+{
+  "title": "Exhibition and Conference Centre",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml'>www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml</a>",
+  "polygon": [
+    {"lat": 51.503571, "lng": -2.552338},
+    {"lat": 51.502701, "lng": -2.553304},
+    {"lat": 51.502167, "lng": -2.552091},
+    {"lat": 51.503036, "lng": -2.551115},
+    {"lat": 51.503571, "lng": -2.552338}
+  ]
+},
+{
+  "title": "Centre for Performing Arts",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/cpa'>www.uwe.ac.uk/cpa</a></div>",
+  "polygon": [
+    {"lat": 51.497646, "lng": -2.546605},
+    {"lat": 51.497566, "lng": -2.547163},
+    {"lat": 51.497532, "lng": -2.547150},
+    {"lat": 51.497513, "lng": -2.547335},
+    {"lat": 51.497387, "lng": -2.547289},
+    {"lat": 51.497437, "lng": -2.546830},
+    {"lat": 51.497486, "lng": -2.546844},
+    {"lat": 51.497528, "lng": -2.546559},
+    {"lat": 51.497646, "lng": -2.546605}
+  ]
+},
+{
+  "title": "All-weather pitch",
+  "description": "<a href='http://www.uwe.ac.uk/sport/'>www.uwe.ac.uk/sport</a>",
+  "polygon": [
+    {"lat": 51.504353, "lng": -2.547767},
+    {"lat": 51.504444, "lng": -2.549199},
+    {"lat": 51.503876, "lng": -2.549285},
+    {"lat": 51.503780, "lng": -2.547853},
+    {"lat": 51.504353, "lng": -2.547767}
+  ]
+},
+{
+  "title": "Brecon Court",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.502724, "lng": -2.549382},
+    {"lat": 51.503216, "lng": -2.549323},
+    {"lat": 51.503242, "lng": -2.549264},
+    {"lat": 51.503769, "lng": -2.549172},
+    {"lat": 51.503769, "lng": -2.549365},
+    {"lat": 51.503277, "lng": -2.549446},
+    {"lat": 51.503223, "lng": -2.549505},
+    {"lat": 51.502739, "lng": -2.549575},
+    {"lat": 51.502724, "lng": -2.549382}
+  ]
+},
+{
+  "title": "Brecon Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
+  "polygon": [
+    {"lat": 51.503567, "lng": -2.548920},
+    {"lat": 51.502815, "lng": -2.548716},
+    {"lat": 51.502834, "lng": -2.548529},
+    {"lat": 51.503593, "lng": -2.548727},
+    {"lat": 51.503567, "lng": -2.548920}
+  ]
+},
+{
+  "title": "Cotswold Court",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.502892, "lng": -2.548057},
+    {"lat": 51.503647, "lng": -2.548260},
+    {"lat": 51.503616, "lng": -2.548459},
+    {"lat": 51.502869, "lng": -2.548239},
+    {"lat": 51.502892, "lng": -2.548057}
+  ]
+},
+{
+  "title": "Cotswold Court",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.503696, "lng": -2.547804},
+    {"lat": 51.502937, "lng": -2.547606},
+    {"lat": 51.502956, "lng": -2.547413},
+    {"lat": 51.503704, "lng": -2.547627},
+    {"lat": 51.503696, "lng": -2.547804}
+  ]
+},
+{
+  "title": "Mendip Court",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.503834, "lng": -2.546705},
+    {"lat": 51.503361, "lng": -2.546442},
+    {"lat": 51.503304, "lng": -2.546453},
+    {"lat": 51.503105, "lng": -2.546351},
+    {"lat": 51.503071, "lng": -2.546517},
+    {"lat": 51.503269, "lng": -2.546662},
+    {"lat": 51.503326, "lng": -2.546646},
+    {"lat": 51.503796, "lng": -2.546903},
+    {"lat": 51.503834, "lng": -2.546705}
+  ]
+},
+{
+  "title": "Mendip Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
+  "polygon": [
+    {"lat": 51.503464, "lng": -2.547322},
+    {"lat": 51.502998, "lng": -2.547193},
+    {"lat": 51.503002, "lng": -2.546989},
+    {"lat": 51.503487, "lng": -2.547128},
+    {"lat": 51.503464, "lng": -2.547322}
+  ]
+},
+{
+  "title": "Quantock Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
+  "polygon": [
+    {"lat": 51.502884, "lng": -2.546286},
+    {"lat": 51.502674, "lng": -2.546270},
+    {"lat": 51.502617, "lng": -2.546217},
+    {"lat": 51.502125, "lng": -2.546211},
+    {"lat": 51.502125, "lng": -2.546388},
+    {"lat": 51.502609, "lng": -2.546420},
+    {"lat": 51.502682, "lng": -2.546469},
+    {"lat": 51.502884, "lng": -2.546490},
+    {"lat": 51.502884, "lng": -2.546286}
+  ]
+},
+{
+  "title": "Quantock Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
+  "polygon": [
+    {"lat": 51.502068, "lng": -2.546732},
+    {"lat": 51.502560, "lng": -2.546866},
+    {"lat": 51.502628, "lng": -2.546844},
+    {"lat": 51.502834, "lng": -2.546909},
+    {"lat": 51.502815, "lng": -2.547080},
+    {"lat": 51.502621, "lng": -2.547043},
+    {"lat": 51.502548, "lng": -2.547059},
+    {"lat": 51.502064, "lng": -2.546909},
+    {"lat": 51.502068, "lng": -2.546732}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a><br></div>",
+  "polygon": [
+    {"lat": 51.497593, "lng": -2.546427},
+    {"lat": 51.497719, "lng": -2.546470},
+    {"lat": 51.497692, "lng": -2.546877},
+    {"lat": 51.497971, "lng": -2.546995},
+    {"lat": 51.498260, "lng": -2.545171},
+    {"lat": 51.497887, "lng": -2.544571},
+    {"lat": 51.497593, "lng": -2.546427}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.498486, "lng": -2.547339},
+    {"lat": 51.498165, "lng": -2.547145},
+    {"lat": 51.498226, "lng": -2.546416},
+    {"lat": 51.498695, "lng": -2.546673},
+    {"lat": 51.498486, "lng": -2.547339}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a></div>",
+  "polygon": [
+    {"lat": 51.498749, "lng": -2.546427},
+    {"lat": 51.498848, "lng": -2.545976},
+    {"lat": 51.498775, "lng": -2.545783},
+    {"lat": 51.498859, "lng": -2.545086},
+    {"lat": 51.498493, "lng": -2.545128},
+    {"lat": 51.498508, "lng": -2.545558},
+    {"lat": 51.498306, "lng": -2.546212},
+    {"lat": 51.498749, "lng": -2.546427}
+  ]
+},
+{
+  "title": "Car park 20",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.498299, "lng": -2.542017},
+    {"lat": 51.498295, "lng": -2.539882},
+    {"lat": 51.499863, "lng": -2.539914},
+    {"lat": 51.499615, "lng": -2.542017},
+    {"lat": 51.498299, "lng": -2.542017}
+  ]
+},
+{
+  "title": "Car park 20",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.500191, "lng": -2.543090},
+    {"lat": 51.499798, "lng": -2.543101},
+    {"lat": 51.499817, "lng": -2.541363},
+    {"lat": 51.499928, "lng": -2.541341},
+    {"lat": 51.500183, "lng": -2.541556},
+    {"lat": 51.500191, "lng": -2.543090}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a></div>",
+  "polygon": [
+    {"lat": 51.498901, "lng": -2.547166},
+    {"lat": 51.498772, "lng": -2.547086},
+    {"lat": 51.498989, "lng": -2.546174},
+    {"lat": 51.499119, "lng": -2.546243},
+    {"lat": 51.499016, "lng": -2.546592},
+    {"lat": 51.499046, "lng": -2.546597},
+    {"lat": 51.498901, "lng": -2.547166}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.501926, "lng": -2.546876},
+    {"lat": 51.501648, "lng": -2.546807},
+    {"lat": 51.501659, "lng": -2.546683},
+    {"lat": 51.501953, "lng": -2.546758},
+    {"lat": 51.501926, "lng": -2.546876}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.501858, "lng": -2.546447},
+    {"lat": 51.501888, "lng": -2.546200},
+    {"lat": 51.501797, "lng": -2.546174},
+    {"lat": 51.501797, "lng": -2.546082},
+    {"lat": 51.501652, "lng": -2.546034},
+    {"lat": 51.501644, "lng": -2.546072},
+    {"lat": 51.501507, "lng": -2.546061},
+    {"lat": 51.501495, "lng": -2.546152},
+    {"lat": 51.501392, "lng": -2.546131},
+    {"lat": 51.501373, "lng": -2.546372},
+    {"lat": 51.501461, "lng": -2.546415},
+    {"lat": 51.501492, "lng": -2.546174},
+    {"lat": 51.501648, "lng": -2.546211},
+    {"lat": 51.501667, "lng": -2.546158},
+    {"lat": 51.501801, "lng": -2.546211},
+    {"lat": 51.501793, "lng": -2.546426},
+    {"lat": 51.501858, "lng": -2.546447}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.501575, "lng": -2.546651},
+    {"lat": 51.501583, "lng": -2.546538},
+    {"lat": 51.501453, "lng": -2.546490},
+    {"lat": 51.501438, "lng": -2.546614},
+    {"lat": 51.501575, "lng": -2.546651}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.501446, "lng": -2.546828},
+    {"lat": 51.501404, "lng": -2.547292},
+    {"lat": 51.501343, "lng": -2.547340},
+    {"lat": 51.501320, "lng": -2.547573},
+    {"lat": 51.501320, "lng": -2.547573},
+    {"lat": 51.501389, "lng": -2.547600},
+    {"lat": 51.501400, "lng": -2.547710},
+    {"lat": 51.501682, "lng": -2.547791},
+    {"lat": 51.501698, "lng": -2.547737},
+    {"lat": 51.501835, "lng": -2.547774},
+    {"lat": 51.501846, "lng": -2.547662},
+    {"lat": 51.501698, "lng": -2.547610},
+    {"lat": 51.501694, "lng": -2.547646},
+    {"lat": 51.501686, "lng": -2.547663},
+    {"lat": 51.501682, "lng": -2.547659},
+    {"lat": 51.501415, "lng": -2.547592},
+    {"lat": 51.501400, "lng": -2.547581},
+    {"lat": 51.501427, "lng": -2.547361},
+    {"lat": 51.501480, "lng": -2.547308},
+    {"lat": 51.501530, "lng": -2.546860},
+    {"lat": 51.501446, "lng": -2.546828}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.501629, "lng": -2.546978},
+    {"lat": 51.501968, "lng": -2.547069},
+    {"lat": 51.501961, "lng": -2.547200},
+    {"lat": 51.501614, "lng": -2.547101},
+    {"lat": 51.501629, "lng": -2.546978}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.501503, "lng": -2.547445},
+    {"lat": 51.501648, "lng": -2.547490},
+    {"lat": 51.501652, "lng": -2.547426},
+    {"lat": 51.501801, "lng": -2.547469},
+    {"lat": 51.501812, "lng": -2.547351},
+    {"lat": 51.501659, "lng": -2.547305},
+    {"lat": 51.501648, "lng": -2.547367},
+    {"lat": 51.501518, "lng": -2.547327},
+    {"lat": 51.501503, "lng": -2.547445}
+  ]
+},
+{
+  "title": "Library",
+  "description": "<a href='http://www.uwe.ac.uk/library'>www.uwe.ac.uk/library</a>",
+  "polygon": [
+    {"lat": 51.484665, "lng": -2.530665},
+    {"lat": 51.484661, "lng": -2.530431},
+    {"lat": 51.484764, "lng": -2.530426},
+    {"lat": 51.484764, "lng": -2.530072},
+    {"lat": 51.484932, "lng": -2.530080},
+    {"lat": 51.484940, "lng": -2.530415},
+    {"lat": 51.485043, "lng": -2.530418},
+    {"lat": 51.485046, "lng": -2.530641},
+    {"lat": 51.484936, "lng": -2.530649},
+    {"lat": 51.484940, "lng": -2.531000},
+    {"lat": 51.484783, "lng": -2.531011},
+    {"lat": 51.484772, "lng": -2.530667},
+    {"lat": 51.484665, "lng": -2.530665}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.502136, "lng": -2.547438},
+    {"lat": 51.502167, "lng": -2.547202},
+    {"lat": 51.502083, "lng": -2.547183},
+    {"lat": 51.502060, "lng": -2.547417},
+    {"lat": 51.502136, "lng": -2.547438}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.502357, "lng": -2.547267},
+    {"lat": 51.502205, "lng": -2.547228},
+    {"lat": 51.502220, "lng": -2.547106},
+    {"lat": 51.502373, "lng": -2.547151},
+    {"lat": 51.502357, "lng": -2.547267}
+  ]
+},
+{
+  "title": "Halley Nursery",
+  "description": "<a href='http://www.uwesu.org/nursery'>www.uwesu.org/nursery</a><br>",
+  "polygon": [
+    {"lat": 51.501286, "lng": -2.545256},
+    {"lat": 51.501247, "lng": -2.545631},
+    {"lat": 51.500866, "lng": -2.545527},
+    {"lat": 51.500904, "lng": -2.545135},
+    {"lat": 51.501286, "lng": -2.545256}
+  ]
+},
+{
+  "title": "Carroll Court",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
+  "polygon": [
+    {"lat": 51.502338, "lng": -2.547380},
+    {"lat": 51.502323, "lng": -2.547616},
+    {"lat": 51.502251, "lng": -2.547605},
+    {"lat": 51.502247, "lng": -2.547748},
+    {"lat": 51.502098, "lng": -2.547721},
+    {"lat": 51.502090, "lng": -2.547764},
+    {"lat": 51.501942, "lng": -2.547729},
+    {"lat": 51.501949, "lng": -2.547624},
+    {"lat": 51.501869, "lng": -2.547595},
+    {"lat": 51.501892, "lng": -2.547353},
+    {"lat": 51.501968, "lng": -2.547364},
+    {"lat": 51.501945, "lng": -2.547600},
+    {"lat": 51.502087, "lng": -2.547638},
+    {"lat": 51.502094, "lng": -2.547584},
+    {"lat": 51.502243, "lng": -2.547616},
+    {"lat": 51.502270, "lng": -2.547359},
+    {"lat": 51.502338, "lng": -2.547380}
+  ]
+},
+{
+  "title": "HEFCE",
+  "description": "<br>",
+  "polygon": [
+    {"lat": 51.500233, "lng": -2.545632},
+    {"lat": 51.499969, "lng": -2.545573},
+    {"lat": 51.499947, "lng": -2.545766},
+    {"lat": 51.499462, "lng": -2.545626},
+    {"lat": 51.499477, "lng": -2.545396},
+    {"lat": 51.499805, "lng": -2.545486},
+    {"lat": 51.499828, "lng": -2.545289},
+    {"lat": 51.500252, "lng": -2.545400},
+    {"lat": 51.500233, "lng": -2.545632}
+  ]
+},
+{
+  "title": "Library",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/library'>www.uwe.ac.uk/library</a></div>",
+  "polygon": [
+    {"lat": 51.500011, "lng": -2.548861},
+    {"lat": 51.500092, "lng": -2.548002},
+    {"lat": 51.499973, "lng": -2.547968},
+    {"lat": 51.499939, "lng": -2.548268},
+    {"lat": 51.499813, "lng": -2.548244},
+    {"lat": 51.499760, "lng": -2.548794},
+    {"lat": 51.500011, "lng": -2.548861}
+  ]
+},
+{
+  "title": "Reception",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/reception'>www.uwe.ac.uk/hsv/reception</a>",
+  "polygon": [
+    {"lat": 51.500004, "lng": -2.547867},
+    {"lat": 51.499912, "lng": -2.547847},
+    {"lat": 51.499931, "lng": -2.547640},
+    {"lat": 51.499969, "lng": -2.547608},
+    {"lat": 51.500019, "lng": -2.547600},
+    {"lat": 51.500004, "lng": -2.547867}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a></div>",
+  "polygon": [
+    {"lat": 51.444237, "lng": -2.632999},
+    {"lat": 51.444172, "lng": -2.632981},
+    {"lat": 51.444153, "lng": -2.632859},
+    {"lat": 51.444080, "lng": -2.632830},
+    {"lat": 51.444088, "lng": -2.632824},
+    {"lat": 51.444080, "lng": -2.632769},
+    {"lat": 51.444069, "lng": -2.632727},
+    {"lat": 51.444298, "lng": -2.632614},
+    {"lat": 51.444237, "lng": -2.632999}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.443092, "lng": -2.632476},
+    {"lat": 51.442947, "lng": -2.632540},
+    {"lat": 51.442753, "lng": -2.632100},
+    {"lat": 51.442726, "lng": -2.631945},
+    {"lat": 51.442928, "lng": -2.631698},
+    {"lat": 51.443012, "lng": -2.631956},
+    {"lat": 51.443092, "lng": -2.632476}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.484879, "lng": -2.529889},
+    {"lat": 51.484852, "lng": -2.529898},
+    {"lat": 51.484615, "lng": -2.529788},
+    {"lat": 51.484646, "lng": -2.529594},
+    {"lat": 51.484684, "lng": -2.529597},
+    {"lat": 51.484692, "lng": -2.529546},
+    {"lat": 51.484898, "lng": -2.529522},
+    {"lat": 51.484875, "lng": -2.528927},
+    {"lat": 51.484921, "lng": -2.528910},
+    {"lat": 51.484962, "lng": -2.529525},
+    {"lat": 51.484955, "lng": -2.529635},
+    {"lat": 51.484924, "lng": -2.529782},
+    {"lat": 51.484901, "lng": -2.529849},
+    {"lat": 51.484879, "lng": -2.529889}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.484177, "lng": -2.528268},
+    {"lat": 51.484142, "lng": -2.528258},
+    {"lat": 51.484119, "lng": -2.528228},
+    {"lat": 51.484100, "lng": -2.528174},
+    {"lat": 51.484085, "lng": -2.528099},
+    {"lat": 51.484062, "lng": -2.528044},
+    {"lat": 51.484032, "lng": -2.527988},
+    {"lat": 51.483990, "lng": -2.527950},
+    {"lat": 51.483948, "lng": -2.527923},
+    {"lat": 51.483891, "lng": -2.527912},
+    {"lat": 51.483833, "lng": -2.527906},
+    {"lat": 51.483814, "lng": -2.527900},
+    {"lat": 51.483784, "lng": -2.527839},
+    {"lat": 51.483780, "lng": -2.527803},
+    {"lat": 51.483776, "lng": -2.527760},
+    {"lat": 51.484074, "lng": -2.527695},
+    {"lat": 51.484146, "lng": -2.527680},
+    {"lat": 51.484154, "lng": -2.527741},
+    {"lat": 51.484142, "lng": -2.527749},
+    {"lat": 51.484142, "lng": -2.527764},
+    {"lat": 51.484116, "lng": -2.527773},
+    {"lat": 51.484131, "lng": -2.528000},
+    {"lat": 51.484154, "lng": -2.528000},
+    {"lat": 51.484177, "lng": -2.528268}
+  ]
+},
+{
+  "title": "Student car parking",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.485455, "lng": -2.527568},
+    {"lat": 51.485416, "lng": -2.528090},
+    {"lat": 51.485142, "lng": -2.528067},
+    {"lat": 51.485130, "lng": -2.527996},
+    {"lat": 51.485096, "lng": -2.527996},
+    {"lat": 51.485065, "lng": -2.527589},
+    {"lat": 51.485104, "lng": -2.527576},
+    {"lat": 51.485104, "lng": -2.527544},
+    {"lat": 51.485123, "lng": -2.527541},
+    {"lat": 51.485115, "lng": -2.527474},
+    {"lat": 51.485317, "lng": -2.527424},
+    {"lat": 51.485325, "lng": -2.527490},
+    {"lat": 51.485416, "lng": -2.527475},
+    {"lat": 51.485409, "lng": -2.527558},
+    {"lat": 51.485455, "lng": -2.527568}
+  ]
+},
+{
+  "title": "Car park",
+  "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+  "polygon": [
+    {"lat": 51.484661, "lng": -2.546667},
+    {"lat": 51.484783, "lng": -2.546771},
+    {"lat": 51.484932, "lng": -2.546305},
+    {"lat": 51.484943, "lng": -2.546187},
+    {"lat": 51.484936, "lng": -2.546085},
+    {"lat": 51.484913, "lng": -2.545940},
+    {"lat": 51.484840, "lng": -2.545835},
+    {"lat": 51.484783, "lng": -2.545806},
+    {"lat": 51.484711, "lng": -2.545833},
+    {"lat": 51.484573, "lng": -2.546275},
+    {"lat": 51.484631, "lng": -2.546323},
+    {"lat": 51.484612, "lng": -2.546390},
+    {"lat": 51.484722, "lng": -2.546484},
+    {"lat": 51.484661, "lng": -2.546667}
+  ]
+},
+{
+  "title": "Library",
+  "description": "<a href='http://www.uwe.ac.uk/library'>www.uwe.ac.uk/library</a>",
+  "polygon": [
+    {"lat": 51.484295, "lng": -2.544322},
+    {"lat": 51.484043, "lng": -2.544124},
+    {"lat": 51.484028, "lng": -2.544191},
+    {"lat": 51.483990, "lng": -2.544164},
+    {"lat": 51.483955, "lng": -2.544269},
+    {"lat": 51.483765, "lng": -2.544108},
+    {"lat": 51.483780, "lng": -2.544054},
+    {"lat": 51.483715, "lng": -2.544006},
+    {"lat": 51.483799, "lng": -2.543724},
+    {"lat": 51.483864, "lng": -2.543770},
+    {"lat": 51.483883, "lng": -2.543716},
+    {"lat": 51.484051, "lng": -2.543848},
+    {"lat": 51.484020, "lng": -2.543952},
+    {"lat": 51.484325, "lng": -2.544188},
+    {"lat": 51.484295, "lng": -2.544322}
+  ]
+},
+{
+  "title": "Student accommodation",
+  "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/glenside.shtml'>www.uwe.ac.uk/accommodation/glenside.shtml</a></div>",
+  "polygon": [
+    {"lat": 51.484631, "lng": -2.543347},
+    {"lat": 51.484531, "lng": -2.543267},
+    {"lat": 51.484558, "lng": -2.543177},
+    {"lat": 51.484535, "lng": -2.543155},
+    {"lat": 51.484589, "lng": -2.542986},
+    {"lat": 51.484612, "lng": -2.543004},
+    {"lat": 51.484673, "lng": -2.542808},
+    {"lat": 51.484524, "lng": -2.542695},
+    {"lat": 51.484509, "lng": -2.542750},
+    {"lat": 51.484413, "lng": -2.542675},
+    {"lat": 51.484520, "lng": -2.542325},
+    {"lat": 51.484619, "lng": -2.542398},
+    {"lat": 51.484600, "lng": -2.542466},
+    {"lat": 51.484745, "lng": -2.542575},
+    {"lat": 51.484802, "lng": -2.542394},
+    {"lat": 51.484779, "lng": -2.542370},
+    {"lat": 51.484833, "lng": -2.542197},
+    {"lat": 51.484856, "lng": -2.542214},
+    {"lat": 51.484909, "lng": -2.542033},
+    {"lat": 51.484722, "lng": -2.541877},
+    {"lat": 51.484715, "lng": -2.541896},
+    {"lat": 51.484627, "lng": -2.541825},
+    {"lat": 51.484596, "lng": -2.541919},
+    {"lat": 51.484543, "lng": -2.541875},
+    {"lat": 51.484573, "lng": -2.541771},
+    {"lat": 51.484543, "lng": -2.541746},
+    {"lat": 51.484528, "lng": -2.541786},
+    {"lat": 51.484467, "lng": -2.541735},
+    {"lat": 51.484539, "lng": -2.541495},
+    {"lat": 51.484779, "lng": -2.541687},
+    {"lat": 51.484768, "lng": -2.541730},
+    {"lat": 51.484936, "lng": -2.541864},
+    {"lat": 51.484943, "lng": -2.541828},
+    {"lat": 51.484970, "lng": -2.541843},
+    {"lat": 51.484974, "lng": -2.541832},
+    {"lat": 51.485035, "lng": -2.541877},
+    {"lat": 51.485096, "lng": -2.541668},
+    {"lat": 51.485073, "lng": -2.541648},
+    {"lat": 51.485134, "lng": -2.541459},
+    {"lat": 51.485157, "lng": -2.541479},
+    {"lat": 51.485210, "lng": -2.541302},
+    {"lat": 51.484921, "lng": -2.541069},
+    {"lat": 51.484985, "lng": -2.540885},
+    {"lat": 51.485031, "lng": -2.540916},
+    {"lat": 51.485008, "lng": -2.540986},
+    {"lat": 51.485195, "lng": -2.541134},
+    {"lat": 51.485203, "lng": -2.541114},
+    {"lat": 51.485332, "lng": -2.541219},
+    {"lat": 51.485268, "lng": -2.541435},
+    {"lat": 51.485291, "lng": -2.541455},
+    {"lat": 51.485249, "lng": -2.541600},
+    {"lat": 51.485256, "lng": -2.541611},
+    {"lat": 51.485222, "lng": -2.541731},
+    {"lat": 51.485210, "lng": -2.541718},
+    {"lat": 51.485165, "lng": -2.541887},
+    {"lat": 51.485134, "lng": -2.541859},
+    {"lat": 51.485100, "lng": -2.541990},
+    {"lat": 51.485287, "lng": -2.542136},
+    {"lat": 51.485321, "lng": -2.542018},
+    {"lat": 51.485378, "lng": -2.542062},
+    {"lat": 51.485367, "lng": -2.542116},
+    {"lat": 51.485428, "lng": -2.542166},
+    {"lat": 51.485367, "lng": -2.542353},
+    {"lat": 51.485012, "lng": -2.542076},
+    {"lat": 51.485004, "lng": -2.542096},
+    {"lat": 51.484989, "lng": -2.542081},
+    {"lat": 51.484959, "lng": -2.542180},
+    {"lat": 51.484982, "lng": -2.542202},
+    {"lat": 51.484867, "lng": -2.542588},
+    {"lat": 51.484837, "lng": -2.542565},
+    {"lat": 51.484722, "lng": -2.542944},
+    {"lat": 51.484749, "lng": -2.542962},
+    {"lat": 51.484631, "lng": -2.543347}
+  ]
+},
+{
+  "title": "Drama studios",
+  "description": "",
+  "polygon": [
+    {"lat": 51.483601, "lng": -2.528504},
+    {"lat": 51.483582, "lng": -2.528949},
+    {"lat": 51.483677, "lng": -2.528956},
+    {"lat": 51.483692, "lng": -2.528513},
+    {"lat": 51.483601, "lng": -2.528504}
+  ]
+},
+{
+  "title": "Bishop Monk",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/matthias.shtml'>www.uwe.ac.uk/accommodation/matthias.shtml</a>",
+  "polygon": [
+    {"lat": 51.485054, "lng": -2.528377},
+    {"lat": 51.485020, "lng": -2.528385},
+    {"lat": 51.485020, "lng": -2.528453},
+    {"lat": 51.484955, "lng": -2.528458},
+    {"lat": 51.484955, "lng": -2.528389},
+    {"lat": 51.484894, "lng": -2.528401},
+    {"lat": 51.484882, "lng": -2.528291},
+    {"lat": 51.484936, "lng": -2.528287},
+    {"lat": 51.484928, "lng": -2.528161},
+    {"lat": 51.484882, "lng": -2.528166},
+    {"lat": 51.484879, "lng": -2.528056},
+    {"lat": 51.484940, "lng": -2.528049},
+    {"lat": 51.484940, "lng": -2.527982},
+    {"lat": 51.485001, "lng": -2.527971},
+    {"lat": 51.485004, "lng": -2.528040},
+    {"lat": 51.485039, "lng": -2.528037},
+    {"lat": 51.485046, "lng": -2.528146},
+    {"lat": 51.484997, "lng": -2.528157},
+    {"lat": 51.485001, "lng": -2.528275},
+    {"lat": 51.485050, "lng": -2.528273},
+    {"lat": 51.485054, "lng": -2.528377}
+  ]
+},
+{
+  "title": "Elsa Nunn",
+  "description": "<a href='http://www.uwe.ac.uk/accommodation/matthias.shtml'>www.uwe.ac.uk/accommodation/matthias.shtml</a>",
+  "polygon": [
+    {"lat": 51.484772, "lng": -2.528040},
+    {"lat": 51.484737, "lng": -2.528044},
+    {"lat": 51.484703, "lng": -2.528048},
+    {"lat": 51.484699, "lng": -2.527982},
+    {"lat": 51.484623, "lng": -2.527990},
+    {"lat": 51.484623, "lng": -2.528056},
+    {"lat": 51.484558, "lng": -2.528064},
+    {"lat": 51.484554, "lng": -2.527974},
+    {"lat": 51.484516, "lng": -2.527974},
+    {"lat": 51.484509, "lng": -2.527874},
+    {"lat": 51.484550, "lng": -2.527868},
+    {"lat": 51.484547, "lng": -2.527812},
+    {"lat": 51.484615, "lng": -2.527805},
+    {"lat": 51.484623, "lng": -2.527904},
+    {"lat": 51.484695, "lng": -2.527899},
+    {"lat": 51.484695, "lng": -2.527846},
+    {"lat": 51.484692, "lng": -2.527793},
+    {"lat": 51.484756, "lng": -2.527784},
+    {"lat": 51.484760, "lng": -2.527843},
+    {"lat": 51.484802, "lng": -2.527839},
+    {"lat": 51.484810, "lng": -2.527943},
+    {"lat": 51.484768, "lng": -2.527950},
+    {"lat": 51.484772, "lng": -2.528040}
+  ]
+},
+{
+  "title": "F Block",
+  "description": "<div dir='ltr'><ul><li>Reception</li></li><li>EPI Centre<br></li></li></ul></div>",
+  "polygon": [
+    {"lat": 51.443867, "lng": -2.631277},
+    {"lat": 51.443916, "lng": -2.631559},
+    {"lat": 51.443413, "lng": -2.631781},
+    {"lat": 51.443401, "lng": -2.631693},
+    {"lat": 51.443314, "lng": -2.631730},
+    {"lat": 51.443340, "lng": -2.631642},
+    {"lat": 51.443260, "lng": -2.631564},
+    {"lat": 51.443317, "lng": -2.631384},
+    {"lat": 51.443394, "lng": -2.631462},
+    {"lat": 51.443455, "lng": -2.631341},
+    {"lat": 51.443535, "lng": -2.631433},
+    {"lat": 51.443867, "lng": -2.631277}
+  ]
+},
+{
+  "title": "Traders Café Bar",
+  "description": "<br>",
+  "polygon": [
+    {"lat": 51.484428, "lng": -2.528401},
+    {"lat": 51.484409, "lng": -2.528069},
+    {"lat": 51.484310, "lng": -2.528088},
+    {"lat": 51.484329, "lng": -2.528421},
+    {"lat": 51.484428, "lng": -2.528401}
+  ]
+}
+]}
