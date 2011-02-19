@@ -32,7 +32,7 @@ $('.map').live("pagecreate", function() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
-  $.each(['accommodation', 'blocks', 'car-parks', 'libraries', 'sport', 'uwe'], function(i, file) {
+  $.each(['accommodation', 'blocks', 'cafes', 'car-parks', 'libraries', 'sport', 'uwe'], function(i, file) {
     $.ajax({
       url: 'data/' + file + '.json',
       dataType: 'json',
