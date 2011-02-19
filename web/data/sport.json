@@ -4,7 +4,7 @@
   "poi":[
     {
       "title": "Centre for Sport",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/sport/'>www.uwe.ac.uk/sport</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/sport/'>www.uwe.ac.uk/sport</a>",
       "polygon": [
         {"lat": 51.504341, "lng": -2.546771},
         {"lat": 51.504379, "lng": -2.547386},

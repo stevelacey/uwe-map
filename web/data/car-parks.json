@@ -4,7 +4,7 @@
   "poi":[
     {
       "title": "Car park",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a><br></div>",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
       "polygon": [
         {"lat": 51.497593, "lng": -2.546427},
         {"lat": 51.497719, "lng": -2.546470},
@@ -28,7 +28,7 @@
     },
     {
       "title": "Car park",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
       "polygon": [
         {"lat": 51.498749, "lng": -2.546427},
         {"lat": 51.498848, "lng": -2.545976},
@@ -65,7 +65,7 @@
     },
     {
       "title": "Car park",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
       "polygon": [
         {"lat": 51.498901, "lng": -2.547166},
         {"lat": 51.498772, "lng": -2.547086},
@@ -78,7 +78,7 @@
     },
     {
       "title": "Car park",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
       "polygon": [
         {"lat": 51.444237, "lng": -2.632999},
         {"lat": 51.444172, "lng": -2.632981},

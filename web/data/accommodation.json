@@ -4,7 +4,7 @@
   "poi":[
     {
       "title": "Brecon Court",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
       "polygon": [
         {"lat": 51.502724, "lng": -2.549382},
         {"lat": 51.503216, "lng": -2.549323},
@@ -30,7 +30,7 @@
     },
     {
       "title": "Cotswold Court",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
       "polygon": [
         {"lat": 51.502892, "lng": -2.548057},
         {"lat": 51.503647, "lng": -2.548260},
@@ -41,7 +41,7 @@
     },
     {
       "title": "Cotswold Court",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
       "polygon": [
         {"lat": 51.503696, "lng": -2.547804},
         {"lat": 51.502937, "lng": -2.547606},
@@ -52,7 +52,7 @@
     },
     {
       "title": "Mendip Court",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/village.shtml'>www.uwe.ac.uk/accommodation/village.shtml</a>",
       "polygon": [
         {"lat": 51.503834, "lng": -2.546705},
         {"lat": 51.503361, "lng": -2.546442},
@@ -191,7 +191,7 @@
     },
     {
       "title": "Carroll Court",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
       "polygon": [
         {"lat": 51.501503, "lng": -2.547445},
         {"lat": 51.501648, "lng": -2.547490},
@@ -217,7 +217,7 @@
     },
     {
       "title": "Carroll Court",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/carroll.shtml'>www.uwe.ac.uk/accommodation/carroll.shtml</a>",
       "polygon": [
         {"lat": 51.502357, "lng": -2.547267},
         {"lat": 51.502205, "lng": -2.547228},
@@ -251,7 +251,7 @@
     },
     {
       "title": "Student accommodation",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/accommodation/glenside.shtml'>www.uwe.ac.uk/accommodation/glenside.shtml</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/accommodation/glenside.shtml'>www.uwe.ac.uk/accommodation/glenside.shtml</a>",
       "polygon": [
         {"lat": 51.484631, "lng": -2.543347},
         {"lat": 51.484531, "lng": -2.543267},

@@ -23,7 +23,7 @@
     },
     {
       "title": "Library",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/library'>www.uwe.ac.uk/library</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/library'>www.uwe.ac.uk/library</a>",
       "polygon": [
         {"lat": 51.500011, "lng": -2.548861},
         {"lat": 51.500092, "lng": -2.548002},

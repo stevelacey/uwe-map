@@ -15,7 +15,7 @@
     },
     {
       "title": "Centre for Performing Arts",
-      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/cpa'>www.uwe.ac.uk/cpa</a></div>",
+      "description": "<a href='http://www.uwe.ac.uk/cpa'>www.uwe.ac.uk/cpa</a>",
       "polygon": [
         {"lat": 51.497646, "lng": -2.546605},
         {"lat": 51.497566, "lng": -2.547163},
@@ -41,7 +41,7 @@
     },
     {
       "title": "HEFCE",
-      "description": "<br>",
+      "description": "",
       "polygon": [
         {"lat": 51.500233, "lng": -2.545632},
         {"lat": 51.499969, "lng": -2.545573},
@@ -79,7 +79,7 @@
     },
     {
       "title": "Traders Café Bar",
-      "description": "<br>",
+      "description": "",
       "polygon": [
         {"lat": 51.484428, "lng": -2.528401},
         {"lat": 51.484409, "lng": -2.528069},
