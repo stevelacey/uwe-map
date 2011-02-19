@@ -1,4 +1,3 @@
-<div data-role="page" data-theme="b">
   <div data-role="header">
     <h1>Find</h1>
   </div>

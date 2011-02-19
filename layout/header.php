@@ -10,3 +10,4 @@
   <script type="text/javascript" src="/js/main.js"></script>
 </head>
 <body>
+  <div class="<?php echo $module ?>" data-role="page" data-theme="b">
