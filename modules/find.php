@@ -1,5 +1,5 @@
   <div data-role="header">
-    <h1>Find</h1>
+    <h1>Points of Interest</h1>
   </div>
 
   <div data-role="content">
