@@ -30,7 +30,7 @@ $('.map').live("pagecreate", function() {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
-  $.each(['uwe', 'blocks'], function(i, file) {
+  $.each(['accommodation', 'blocks', 'car-parks', 'libraries', 'sport', 'uwe'], function(i, file) {
     $.ajax({
       url: 'data/' + file + '.json',
       dataType: 'json',
@@ -44,10 +44,10 @@ $('.map').live("pagecreate", function() {
 
           var polygon = new google.maps.Polygon({
             paths: paths,
-            strokeColor: "#FF0000",
+            strokeColor: data.color,
             strokeOpacity: 0.8,
             strokeWeight: 2,
-            fillColor: "#FF0000",
+            fillColor: data.color,
             fillOpacity: 0.35
           });
 

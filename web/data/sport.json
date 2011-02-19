@@ -1,0 +1,32 @@
+{
+  "name": "Sport",
+  "color": "#007700",
+  "poi":[
+    {
+      "title": "Centre for Sport",
+      "description": "<div dir='ltr'><a href='http://www.uwe.ac.uk/sport/'>www.uwe.ac.uk/sport</a></div>",
+      "polygon": [
+        {"lat": 51.504341, "lng": -2.546771},
+        {"lat": 51.504379, "lng": -2.547386},
+        {"lat": 51.504345, "lng": -2.547396},
+        {"lat": 51.504356, "lng": -2.547595},
+        {"lat": 51.503922, "lng": -2.547662},
+        {"lat": 51.503902, "lng": -2.547316},
+        {"lat": 51.504017, "lng": -2.547297},
+        {"lat": 51.503990, "lng": -2.546822},
+        {"lat": 51.504341, "lng": -2.546771}
+      ]
+    },
+    {
+      "title": "All-weather pitch",
+      "description": "<a href='http://www.uwe.ac.uk/sport/'>www.uwe.ac.uk/sport</a>",
+      "polygon": [
+        {"lat": 51.504353, "lng": -2.547767},
+        {"lat": 51.504444, "lng": -2.549199},
+        {"lat": 51.503876, "lng": -2.549285},
+        {"lat": 51.503780, "lng": -2.547853},
+        {"lat": 51.504353, "lng": -2.547767}
+      ]
+    }
+  ]
+}
