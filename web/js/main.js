@@ -3,6 +3,8 @@ $('.map').live("pagecreate", function() {
   var lat = 51.50169,
       lng = -2.545738;
 
+  var infowindow;
+
   // try to get GPS coords
   if( navigator.geolocation ) {
 
@@ -51,9 +53,40 @@ $('.map').live("pagecreate", function() {
             fillOpacity: 0.35
           });
 
+          google.maps.event.addListener(polygon, 'click', function() {
+            if(infowindow) {
+              infowindow.close();
+            }
+
+            infowindow = new google.maps.InfoWindow({
+              content: poi.title + '<br/>' + poi.description,
+              position: polygon.getBounds().getCenter()
+            });
+
+            infowindow.open(map);
+          });
+
           polygon.setMap(map);
         });
       }
     });
   });
 });
+
+if (!google.maps.Polygon.prototype.getBounds) {
+  google.maps.Polygon.prototype.getBounds = function(latLng) {
+
+    var bounds = new google.maps.LatLngBounds();
+    var paths = this.getPaths();
+    var path;
+
+    for (var p = 0; p < paths.getLength(); p++) {
+      path = paths.getAt(p);
+      for (var i = 0; i < path.getLength(); i++) {
+        bounds.extend(path.getAt(i));
+      }
+    }
+
+    return bounds;
+  }
+}
