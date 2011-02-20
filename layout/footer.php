@@ -1,3 +1,4 @@
+
   <div data-id="footer" data-role="footer" data-position="fixed">
     <div data-role="navbar">
       <ul>
