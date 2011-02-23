@@ -38,6 +38,16 @@
       ]
     },
     {
+      "title": "Car Park 11",
+      "description": "",
+      "polygon": [
+        {"lat": 51.502679, "lng": -2.548565},
+        {"lat": 51.502729, "lng": -2.548082},
+        {"lat": 51.502355, "lng": -2.548437},
+        {"lat": 51.502398, "lng": -2.548007}
+      ]
+    },
+    {
       "title": "Car park 19a",
       "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
       "polygon": [
