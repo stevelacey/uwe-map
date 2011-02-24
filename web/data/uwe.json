@@ -3,17 +3,6 @@
   "color": "#005555",
   "poi":[
     {
-      "title": "Exhibition and Conference Centre",
-      "description": "<a href='http://www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml'>www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml</a>",
-      "polygon": [
-        {"lat": 51.503571, "lng": -2.552338},
-        {"lat": 51.502701, "lng": -2.553304},
-        {"lat": 51.502167, "lng": -2.552091},
-        {"lat": 51.503036, "lng": -2.551115},
-        {"lat": 51.503571, "lng": -2.552338}
-      ]
-    },
-    {
       "title": "Centre for Performing Arts",
       "description": "<a href='http://www.uwe.ac.uk/cpa'>www.uwe.ac.uk/cpa</a>",
       "polygon": [
@@ -29,8 +18,87 @@
       ]
     },
     {
+      "title": "Drama studios",
+      "description": "",
+      "polygon": [
+        {"lat": 51.483601, "lng": -2.528504},
+        {"lat": 51.483582, "lng": -2.528949},
+        {"lat": 51.483677, "lng": -2.528956},
+        {"lat": 51.483692, "lng": -2.528513},
+        {"lat": 51.483601, "lng": -2.528504}
+      ]
+    },
+    {
+      "title": "Du Pont Building",
+      "description": "Bristol Robotics Lab",
+      "polygon": [
+        {"lat": 51.501679, "lng": -2.54355},
+        {"lat": 51.501698, "lng": -2.543024},
+        {"lat": 51.501592, "lng": -2.543014},
+        {"lat": 51.501599, "lng": -2.542754},
+        {"lat": 51.501492, "lng": -2.542744},
+        {"lat": 51.501504, "lng": -2.542397},
+        {"lat": 51.500855, "lng": -2.542339},
+        {"lat": 51.500835, "lng": -2.542856},
+        {"lat": 51.500777, "lng": -2.542854},
+        {"lat": 51.500769, "lng": -2.542855},
+        {"lat": 51.500762, "lng": -2.542858},
+        {"lat": 51.500754, "lng": -2.542863},
+        {"lat": 51.500743, "lng": -2.542874},
+        {"lat": 51.500736, "lng": -2.542884},
+        {"lat": 51.500729, "lng": -2.542899},
+        {"lat": 51.500723, "lng": -2.54292},
+        {"lat": 51.500722, "lng": -2.542941},
+        {"lat": 51.500723, "lng": -2.542963},
+        {"lat": 51.500726, "lng": -2.542978},
+        {"lat": 51.500732, "lng": -2.542993},
+        {"lat": 51.500739, "lng": -2.543006},
+        {"lat": 51.500746, "lng": -2.543016},
+        {"lat": 51.500752, "lng": -2.54302},
+        {"lat": 51.50076, "lng": -2.543025},
+        {"lat": 51.500767, "lng": -2.543027},
+        {"lat": 51.500777, "lng": -2.543029},
+        {"lat": 51.501031, "lng": -2.543053},
+        {"lat": 51.501081, "lng": -2.543145},
+        {"lat": 51.501071, "lng": -2.543159},
+        {"lat": 51.501095, "lng": -2.5432},
+        {"lat": 51.501104, "lng": -2.543187},
+        {"lat": 51.501144, "lng": -2.543257},
+        {"lat": 51.501133, "lng": -2.54359},
+        {"lat": 51.501133, "lng": -2.5436},
+        {"lat": 51.501134, "lng": -2.543615},
+        {"lat": 51.501137, "lng": -2.543629},
+        {"lat": 51.501141, "lng": -2.543641},
+        {"lat": 51.501147, "lng": -2.54365},
+        {"lat": 51.501151, "lng": -2.543655},
+        {"lat": 51.501162, "lng": -2.543666},
+        {"lat": 51.501174, "lng": -2.543674},
+        {"lat": 51.501187, "lng": -2.543676},
+        {"lat": 51.501198, "lng": -2.543674},
+        {"lat": 51.501209, "lng": -2.543668},
+        {"lat": 51.501219, "lng": -2.543657},
+        {"lat": 51.501226, "lng": -2.543647},
+        {"lat": 51.501232, "lng": -2.543633},
+        {"lat": 51.501236, "lng": -2.543619},
+        {"lat": 51.501239, "lng": -2.543605},
+        {"lat": 51.50124, "lng": -2.543589},
+        {"lat": 51.501245, "lng": -2.54351}
+      ]
+    },
+    {
+      "title": "Exhibition and Conference Centre",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml'>www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml</a>",
+      "polygon": [
+        {"lat": 51.503571, "lng": -2.552338},
+        {"lat": 51.502701, "lng": -2.553304},
+        {"lat": 51.502167, "lng": -2.552091},
+        {"lat": 51.503036, "lng": -2.551115},
+        {"lat": 51.503571, "lng": -2.552338}
+      ]
+    },
+    {
       "title": "Halley Nursery",
-      "description": "<a href='http://www.uwesu.org/nursery'>www.uwesu.org/nursery</a><br>",
+      "description": "<a href='http://www.uwesu.org/nursery'>www.uwesu.org/nursery</a>",
       "polygon": [
         {"lat": 51.501286, "lng": -2.545256},
         {"lat": 51.501247, "lng": -2.545631},
@@ -64,17 +132,6 @@
         {"lat": 51.499969, "lng": -2.547608},
         {"lat": 51.500019, "lng": -2.547600},
         {"lat": 51.500004, "lng": -2.547867}
-      ]
-    },
-    {
-      "title": "Drama studios",
-      "description": "",
-      "polygon": [
-        {"lat": 51.483601, "lng": -2.528504},
-        {"lat": 51.483582, "lng": -2.528949},
-        {"lat": 51.483677, "lng": -2.528956},
-        {"lat": 51.483692, "lng": -2.528513},
-        {"lat": 51.483601, "lng": -2.528504}
       ]
     }
   ]
