@@ -1,4 +1,4 @@
-$('.map').live("pagecreate", function() {
+function appMLReady() {
   // uwe
   var lat = 51.50169,
       lng = -2.545738;
@@ -26,7 +26,7 @@ $('.map').live("pagecreate", function() {
     navigator.geolocation.getCurrentPosition(gpsSuccess, gpsFail, {enableHighAccuracy:true, maximumAge: 300000});
   }
 
-  var map = new google.maps.Map($('.map .canvas').get(0), {
+  var map = new google.maps.Map($('#map .canvas').get(0), {
     zoom: 17,
     center: new google.maps.LatLng(lat, lng),
     mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -71,7 +71,7 @@ $('.map').live("pagecreate", function() {
       }
     });
   });
-});
+}
 
 if (!google.maps.Polygon.prototype.getBounds) {
   google.maps.Polygon.prototype.getBounds = function(latLng) {
