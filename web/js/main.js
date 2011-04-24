@@ -6,11 +6,11 @@ function appMLReady() {
   var infowindow;
 
   // try to get GPS coords
-  if( navigator.geolocation ) {
+  if(navigator.geolocation) {
 
     // redirect function for successful location
     function gpsSuccess(pos){
-      if( pos.coords ){
+      if(pos.coords) {
         lat = pos.coords.latitude;
         lng = pos.coords.longitude;
       } else {
@@ -31,6 +31,22 @@ function appMLReady() {
     center: new google.maps.LatLng(lat, lng),
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
+
+  google.maps.Polygon.prototype.getBounds = function(latLng) {
+
+    var bounds = new google.maps.LatLngBounds();
+    var paths = this.getPaths();
+    var path;
+
+    for (var p = 0; p < paths.getLength(); p++) {
+      path = paths.getAt(p);
+      for (var i = 0; i < path.getLength(); i++) {
+        bounds.extend(path.getAt(i));
+      }
+    }
+
+    return bounds;
+  }
 
   $.each(['accommodation', 'blocks', 'cafes', 'car-parks', 'libraries', 'sport', 'uwe'], function(i, file) {
     $.ajax({
@@ -71,22 +87,4 @@ function appMLReady() {
       }
     });
   });
-}
-
-if (!google.maps.Polygon.prototype.getBounds) {
-  google.maps.Polygon.prototype.getBounds = function(latLng) {
-
-    var bounds = new google.maps.LatLngBounds();
-    var paths = this.getPaths();
-    var path;
-
-    for (var p = 0; p < paths.getLength(); p++) {
-      path = paths.getAt(p);
-      for (var i = 0; i < path.getLength(); i++) {
-        bounds.extend(path.getAt(i));
-      }
-    }
-
-    return bounds;
-  }
 }
