@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Interaction Design Map App</title>
+    <title>UWE Map</title>
 
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png"/>
     <link rel="apple-touch-startup-image" href="/images/startup.png">
