@@ -1,3 +1,4 @@
+        <panel id="find" title="Find" icon="42-photos.png">
           <page id="carousel_page" title="Carousel">
             <div data-role="header">
               <h1>Points of Interest</h1>
@@ -12,3 +13,4 @@
               </ul>
             </div>
           </page>
+        </panel>
