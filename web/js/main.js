@@ -1,39 +1,26 @@
+var map;
+var current_position_marker;
+
+var uwe = new google.maps.LatLng(51.50169, -2.545738);
+var user;
+
+var infowindow;
+
 function appMLReady() {
-  // uwe
-  var lat = 51.50169,
-      lng = -2.545738;
-
-  var infowindow;
-
-  // try to get GPS coords
-  if(navigator.geolocation) {
-
-    // redirect function for successful location
-    function gpsSuccess(pos){
-      if(pos.coords) {
-        lat = pos.coords.latitude;
-        lng = pos.coords.longitude;
-      } else {
-        lat = pos.latitude;
-        lng = pos.longitude;
-      }
-    }
-
-    function gpsFail(){
-      // geo-location is supported, but we failed to get your coordinates. Workaround here perhaps?
-    }
-
-    navigator.geolocation.getCurrentPosition(gpsSuccess, gpsFail, {enableHighAccuracy:true, maximumAge: 300000});
+  //determine if the handset has client side geo location capabilities
+  if(geo_position_js.init()){
+    getPosition();
+  } else {
+    alert("Functionality not available");
   }
 
-  var map = new google.maps.Map($('#map .canvas').get(0), {
+  map = new google.maps.Map($('#map .canvas').get(0), {
     zoom: 17,
-    center: new google.maps.LatLng(lat, lng),
+    center: uwe,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
   google.maps.Polygon.prototype.getBounds = function(latLng) {
-
     var bounds = new google.maps.LatLngBounds();
     var paths = this.getPaths();
     var path;
@@ -87,4 +74,41 @@ function appMLReady() {
       }
     });
   });
+}
+
+function getPosition() {
+  geo_position_js.getCurrentPosition(geoSuccess, geoFail);
+  setTimeout('getPosition()', 2000);
+}
+
+// redirect function for successful location
+function geoSuccess(pos){
+  user = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
+
+  if(current_position_marker == undefined) {
+    var bounds = new google.maps.LatLngBounds();
+
+    bounds.extend(user);
+    bounds.extend(uwe);
+
+    map.fitBounds(bounds);
+  } else {
+    current_position_marker.setMap(null);
+  }
+
+  current_position_marker = new google.maps.Marker({
+    title: "You are here",
+    position: user,
+    map: map,
+    icon: new google.maps.MarkerImage(
+      "/images/blue_dot_circle.png",
+      new google.maps.Size(38, 38),
+      new google.maps.Point(0, 0),
+      new google.maps.Point(19, 19)
+    )
+	});
+}
+
+function geoFail(){
+  // geo-location is supported, but we failed to get your coordinates. Workaround here perhaps?
 }
