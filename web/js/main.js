@@ -6,35 +6,62 @@ var user;
 
 var infowindow;
 
-function appMLReady() {
-  //determine if the handset has client side geo location capabilities
-  if(geo_position_js.init()){
-    getPosition();
-  } else {
-    alert("Functionality not available");
-  }
 
+function appMLReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
     zoom: 17,
     center: uwe,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
 
-  google.maps.Polygon.prototype.getBounds = function(latLng) {
-    var bounds = new google.maps.LatLngBounds();
-    var paths = this.getPaths();
-    var path;
-
-    for (var p = 0; p < paths.getLength(); p++) {
-      path = paths.getAt(p);
-      for (var i = 0; i < path.getLength(); i++) {
-        bounds.extend(path.getAt(i));
-      }
-    }
-
-    return bounds;
+  if(window.location.href.strstr('i7')) {
+    fakePosition();
+  } else {
+    getPosition();
   }
 
+  plot();
+}
+
+function getPosition() {
+  //determine if the handset has client side geo location capabilities
+  if(geo_position_js.init()){
+    geo_position_js.getCurrentPosition(geoSuccess);
+    setTimeout('getPosition()', 2000);
+  }
+}
+
+// redirect function for successful location
+function geoSuccess(pos) {
+  user = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
+
+  if(current_position_marker == undefined) {
+    // Plot
+    current_position_marker = new google.maps.Marker({
+      title: "You are here",
+      position: user,
+      map: map,
+      icon: new google.maps.MarkerImage(
+        "/images/blue_dot_circle.png",
+        new google.maps.Size(38, 38),
+        new google.maps.Point(0, 0),
+        new google.maps.Point(19, 19)
+      )
+    });
+    
+    // Center
+    var bounds = new google.maps.LatLngBounds();
+
+    bounds.extend(user);
+    bounds.extend(uwe);
+
+    map.fitBounds(bounds);
+  } else {
+    current_position_marker.setPosition(user);
+  }
+}
+
+function plot() {
   $.each(['accommodation', 'blocks', 'cafes', 'car-parks', 'libraries', 'sport', 'uwe'], function(i, file) {
     $.ajax({
       url: 'data/' + file + '.json',
@@ -76,41 +103,55 @@ function appMLReady() {
   });
 }
 
-function getPosition() {
-  geo_position_js.getCurrentPosition(geoSuccess, geoFail);
-  setTimeout('getPosition()', 2000);
+function fakePosition() {
+  $.ajax({
+    url: 'data/blocks.json',
+    dataType: 'json',
+    success: function(data) {
+      locations = new Array();
+      
+      $.each(data.poi, function(key, poi) {
+        $.each(poi.polygon, function(i, point) {
+          locations.push({coords:{latitude: point.lat, longitude: point.lng}, duration: 5000});
+        });
+      });
+
+      locations.shuffle();
+
+      geo_position_js_simulator.init(locations);
+
+      getPosition();
+    }
+  });
 }
 
-// redirect function for successful location
-function geoSuccess(pos) {
-  user = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
+Array.prototype.shuffle = function() {
+ 	var len = this.length;
+	var i = len;
+	 while (i--) {
+	 	var p = parseInt(Math.random()*len);
+		var t = this[i];
+  	this[i] = this[p];
+  	this[p] = t;
+ 	}
+};
 
-  if(current_position_marker == undefined) {
-    // Plot
-    current_position_marker = new google.maps.Marker({
-      title: "You are here",
-      position: user,
-      map: map,
-      icon: new google.maps.MarkerImage(
-        "/images/blue_dot_circle.png",
-        new google.maps.Size(38, 38),
-        new google.maps.Point(0, 0),
-        new google.maps.Point(19, 19)
-      )
-    });
-    
-    // Center
-    var bounds = new google.maps.LatLngBounds();
+String.prototype.strstr = function(needle) {
+	var f = this.indexOf(needle)+1;
+	return (f===0) ? 0 :1;
+};
 
-    bounds.extend(user);
-    bounds.extend(uwe);
+google.maps.Polygon.prototype.getBounds = function(latLng) {
+  var bounds = new google.maps.LatLngBounds();
+  var paths = this.getPaths();
+  var path;
 
-    map.fitBounds(bounds);
-  } else {
-    current_position_marker.setPosition(user);
+  for (var p = 0; p < paths.getLength(); p++) {
+    path = paths.getAt(p);
+    for (var i = 0; i < path.getLength(); i++) {
+      bounds.extend(path.getAt(i));
+    }
   }
-}
 
-function geoFail(){
-  // geo-location is supported, but we failed to get your coordinates. Workaround here perhaps?
+  return bounds;
 }

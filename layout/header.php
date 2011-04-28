@@ -17,10 +17,12 @@
     <script src="/js/hicTech/appManager.js"></script>
 
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+
     <script src="/js/geo.js"></script>
     <script src="/js/main.js"></script>
 
     <?php if (strstr($_SERVER['HTTP_HOST'], 'i7.stevelacey.net')) : ?>
+      <script src="/js/geo-fake.js"></script>
       <script src="/js/live.js"></script>
     <?php endif ?>
   </head>
