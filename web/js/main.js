@@ -82,10 +82,24 @@ function getPosition() {
 }
 
 // redirect function for successful location
-function geoSuccess(pos){
+function geoSuccess(pos) {
   user = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
 
   if(current_position_marker == undefined) {
+    // Plot
+    current_position_marker = new google.maps.Marker({
+      title: "You are here",
+      position: user,
+      map: map,
+      icon: new google.maps.MarkerImage(
+        "/images/blue_dot_circle.png",
+        new google.maps.Size(38, 38),
+        new google.maps.Point(0, 0),
+        new google.maps.Point(19, 19)
+      )
+    });
+    
+    // Center
     var bounds = new google.maps.LatLngBounds();
 
     bounds.extend(user);
@@ -93,20 +107,8 @@ function geoSuccess(pos){
 
     map.fitBounds(bounds);
   } else {
-    current_position_marker.setMap(null);
+    current_position_marker.setPosition(user);
   }
-
-  current_position_marker = new google.maps.Marker({
-    title: "You are here",
-    position: user,
-    map: map,
-    icon: new google.maps.MarkerImage(
-      "/images/blue_dot_circle.png",
-      new google.maps.Size(38, 38),
-      new google.maps.Point(0, 0),
-      new google.maps.Point(19, 19)
-    )
-	});
 }
 
 function geoFail(){
