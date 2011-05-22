@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="/css/main.css"/>
 
     <script src="/js/jquery/jquery-1.4.4-hicVersion-min.js"></script>
+    <script src="js/plugins/canvasLoader/canvasLoader.js"></script> 
     <script src="/js/plugins/livequery/jquery.livequery-1.0.3.js"></script>
-    <script src="/js/plugins/add2home/add2home.js"></script>
-    <script src="/js/hicTech/appManager.js"></script>
+    
+    <script src="/js/hicTech/appManager-min.js"></script>
 
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 
