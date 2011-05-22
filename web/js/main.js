@@ -94,7 +94,7 @@ function plot() {
             fillOpacity: 0.35
           });
 
-          google.maps.event.addListener(polygon, 'click', function() {
+          google.maps.event.addListener(polygon, 'mouseup', function() {
             if(infowindow) {
               infowindow.close();
             }
