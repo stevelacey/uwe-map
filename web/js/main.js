@@ -6,7 +6,6 @@ var user;
 
 var infowindow;
 
-
 function appMLReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
     zoom: 17,
@@ -21,6 +20,18 @@ function appMLReady() {
   }
 
   plot();
+}
+
+// AddToHome
+if ('standalone' in navigator && !navigator.standalone && (/iphone|ipod|ipad/gi).test(navigator.platform) && (/Safari/i).test(navigator.appVersion)) {
+  var addToHomeConfig = {
+    animationIn: 'bubble',
+    lifespan: 10000,
+    touchIcon: true
+  };
+
+  document.write('<link rel="stylesheet" href="/js/plugins/add2home/add2home.css">');
+  document.write('<script src="/js/plugins/add2home/add2home.js" charset="utf-8"></script>');
 }
 
 function getPosition() {

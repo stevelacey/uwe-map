@@ -12,18 +12,17 @@ html { -webkit-text-size-adjust:none; }
 	-webkit-box-sizing:border-box;
 	width:208px;
 	font-size:13px;
-	padding:15px;
+	padding:10px;
 	text-align:left;
 	font-family:helvetica;
-	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(50%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6)); /* webkit */
-	border:5px solid #505050;
+	background-image:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(0.02,#eee),color-stop(0.98,#ccc),color-stop(1,#a3a3a3));
+	border:1px solid #505050;
 	-webkit-border-radius:8px;
 	-webkit-background-clip:padding-box;
 	color:#333;
 	text-shadow:0 1px 0 rgba(255,255,255,0.75);
 	line-height:130%;
-	-webkit-box-shadow:0 0 14px rgba(0,0,0,0.5);
-
+	-webkit-box-shadow:0 0 4px rgba(0,0,0,0.5);
 }
 
 
@@ -44,9 +43,10 @@ html { -webkit-text-size-adjust:none; }
  */
 #addToHomeScreen .arrow {
 	position:absolute;
-	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(255,255,255,0)),color-stop(0.4,rgba(255,255,255,0)),color-stop(0.4,#fff));
+	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(204,204,204,0)),color-stop(0.4,rgba(204,204,204,0)),color-stop(0.4,#ccc));
 	border-width:0 1px 1px 0;
-	border-style:solid ;
+	border-style:solid;
+	border-color:#505050;
 	width:16px; height:16px;
 	-webkit-transform:rotateZ(45deg);
 	bottom:-9px; left:50%;
@@ -63,10 +63,9 @@ html { -webkit-text-size-adjust:none; }
  */
 #addToHomeScreen.ipad .arrow {
 	-webkit-transform:rotateZ(-135deg);
-	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(255,255,255,0)),color-stop(0.4,rgba(255,255,255,0)),color-stop(0.4,#fff));
+	background-image:-webkit-gradient(linear,0 0,100% 100%,color-stop(0,rgba(238,238,238,0)),color-stop(0.4,rgba(238,238,238,0)),color-stop(0.4,#eee));
 	-webkit-box-shadow:inset -1px -1px 0 #fff;
 	top:-9px; bottom:auto; left:50%;
-
 }
 
 
@@ -78,15 +77,15 @@ html { -webkit-text-size-adjust:none; }
 #addToHomeScreen .close {
 	-webkit-box-sizing:border-box;
 	position:absolute;
-	right:6px;
-	top:5px;
+	right:2px;
+	top:2px;
 	width:14px;
 	height:14px; line-height:10px;
 	text-align:center;
 	text-indent:1px;
 	font-size:14px;
 	-webkit-border-radius:7px;
-	background:#444;
+	background:rgba(0,0,0,0.12);
 	color:#707070;
 	-webkit-box-shadow:0 1px 0 #fff;
 	font-size:13px;
@@ -131,7 +130,7 @@ html { -webkit-text-size-adjust:none; }
 	float:left;
 	-webkit-border-radius:8px;
 	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5),
-	inset 0 0 2px rgba(255,255,255,0.9);
+		inset 0 0 2px rgba(255,255,255,0.9);
 	background-repeat:none;
 	width:44px; height:44px;
 	-webkit-background-size:44px 44px;
