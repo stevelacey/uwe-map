@@ -7,7 +7,7 @@ var user;
 var infowindow;
 
 var markers = [];
-var marker_zoom_scale = 20;
+var marker_zoom_scale = 25;
 
 function gladiatorsReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
@@ -123,10 +123,10 @@ function plot() {
               map: map,
               icon: new google.maps.MarkerImage(
                 "/images/icons/" + file + "/" + poi.icon + ".png",
-                new google.maps.Size(32, 38),
+                new google.maps.Size(39, 49),
                 new google.maps.Point(0, 0),
-                new google.maps.Point(16, 19),
-                new google.maps.Size(32 * markerScale(), 38 * markerScale())
+                new google.maps.Point(19, 24),
+                new google.maps.Size(39 * markerScale(), 49 * markerScale())
               )
             });
 
