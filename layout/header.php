@@ -27,7 +27,7 @@
       <script src="/js/live.js"></script>
     <?php endif ?>
   </head>
-  <body data-appml-onload="appMLReady()">
+  <body data-appml-onload="gladiatorsReady()">
     <appml class="<?php echo $module ?>">
       <loading></loading>
       <content>

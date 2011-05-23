@@ -9,8 +9,7 @@ var infowindow;
 var markers = [];
 var marker_zoom_scale = 20;
 
-
-function appMLReady() {
+function gladiatorsReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
     zoom: 17,
     center: uwe,
