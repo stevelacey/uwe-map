@@ -4,6 +4,7 @@
   "poi":[
     {
       "title": "B Block",
+      "icon": "b",
       "description": "",
       "polygon": [
         {"lat": 51.498907, "lng": -2.54826},
@@ -68,6 +69,7 @@
     },
     {
       "title": "C Block",
+      "icon": "c",
       "description": "",
       "polygon": [
         {"lat": 51.499623, "lng": -2.548394},
@@ -80,6 +82,7 @@
     },
     {
       "title": "D Block",
+      "icon": "d",
       "description": "",
       "polygon": [
         {"lat": 51.500223, "lng": -2.548251},
@@ -94,6 +97,7 @@
     },
     {
       "title": "D Block (Continued)",
+      "icon": "d",
       "description": "",
       "polygon": [
         {"lat": 51.500109, "lng": -2.549338},
@@ -113,6 +117,7 @@
     },
     {
       "title": "E Block",
+      "icon": "e",
       "description": "",
       "polygon": [
         {"lat": 51.500251, "lng": -2.547951},
@@ -129,6 +134,7 @@
     },
     {
       "title": "F Block (Bower Ashton)",
+      "icon": "f",
       "description": "<ul><li>Reception</li></li><li>EPI Centre<br></li></li></ul>",
       "polygon": [
         {"lat": 51.443867, "lng": -2.631277},
@@ -147,6 +153,7 @@
     },
     {
       "title": "G Block",
+      "icon": "g",
       "description": "",
       "polygon": [
         {"lat": 51.500358, "lng": -2.547205},
@@ -158,6 +165,7 @@
     },
     {
       "title": "H Block",
+      "icon": "h",
       "description": "",
       "polygon": [
         {"lat": 51.500291, "lng": -2.547192},
@@ -177,6 +185,7 @@
     },
     {
       "title": "J Block",
+      "icon": "j",
       "description": "",
       "polygon": [
         {"lat": 51.499735, "lng": -2.546837},
@@ -190,6 +199,7 @@
     },
     {
       "title": "K Block",
+      "icon": "k",
       "description": "",
       "polygon": [
         {"lat": 51.499754, "lng": -2.547407},
@@ -205,6 +215,7 @@
     },
     {
       "title": "L Block",
+      "icon": "l",
       "description": "",
       "polygon": [
         {"lat": 51.499253, "lng": -2.54772},
@@ -220,6 +231,7 @@
     },
     {
       "title": "M Block",
+      "icon": "m",
       "description": "",
       "polygon": [
         {"lat": 51.50043, "lng": -2.547238},
@@ -231,6 +243,7 @@
     },
     {
       "title": "N Block",
+      "icon": "n",
       "description": "",
       "polygon": [
         {"lat": 51.501099, "lng": -2.547895},
@@ -245,6 +258,7 @@
     },
     {
       "title": "P Block",
+      "icon": "p",
       "description": "",
       "polygon": [
         {"lat": 51.501316, "lng": -2.549601},
@@ -267,6 +281,7 @@
     },
     {
       "title": "Q Block",
+      "icon": "q",
       "description": "",
       "polygon": [
         {"lat": 51.50172, "lng": -2.548866},
@@ -304,6 +319,7 @@
     },
     {
       "title": "R Block",
+      "icon": "r",
       "description": "",
       "polygon": [
         {"lat": 51.502498, "lng": -2.549413},
@@ -318,6 +334,7 @@
     },
     {
       "title": "S Block",
+      "icon": "s",
       "description": "",
       "polygon": [
         {"lat": 51.498343, "lng": -2.548866},

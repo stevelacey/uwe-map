@@ -5,6 +5,7 @@ var uwe = new google.maps.LatLng(51.50169, -2.545738);
 var user;
 
 var infowindow;
+var markers = [];
 
 function appMLReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
@@ -20,6 +21,14 @@ function appMLReady() {
   }
 
   plot();
+    
+  google.maps.event.addListener(map, 'zoom_changed', function() {
+    var scale = map.getZoom() / 20 < 1 ? map.getZoom() / 20 : 1;
+    
+    $.each(markers, function(i, marker) {
+      marker.icon.scaledSize = new google.maps.Size(32 * scale, 38 * scale)
+    });
+  });
 }
 
 // AddToHome
@@ -93,8 +102,8 @@ function plot() {
             fillColor: data.color,
             fillOpacity: 0.35
           });
-
-          google.maps.event.addListener(polygon, 'mouseup', function() {
+          
+          var load_infowindow = function() {
             if(infowindow) {
               infowindow.close();
             }
@@ -105,7 +114,27 @@ function plot() {
             });
 
             infowindow.open(map);
-          });
+          };
+
+          if(poi.icon) {
+            var marker = new google.maps.Marker({
+              title: poi.title,
+              position: polygon.getBounds().getCenter(),
+              map: map,
+              icon: new google.maps.MarkerImage(
+                "/images/icons/" + file + "/" + poi.icon + ".png",
+                new google.maps.Size(32, 38),
+                new google.maps.Point(0, 0),
+                new google.maps.Point(16, 19)
+              )
+            });
+
+            google.maps.event.addListener(marker, 'mouseup', load_infowindow);
+            
+            markers[markers.length] = marker;
+          }
+          
+          google.maps.event.addListener(polygon, 'mouseup', load_infowindow);
 
           polygon.setMap(map);
         });

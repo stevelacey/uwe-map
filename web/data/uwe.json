@@ -87,6 +87,7 @@
     },
     {
       "title": "Exhibition and Conference Centre",
+      "icon": "ecc",
       "description": "<a href='http://www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml'>www.uwe.ac.uk/hsv/hospitality/conference/exhibition.shtml</a>",
       "polygon": [
         {"lat": 51.503571, "lng": -2.552338},
