@@ -33,6 +33,7 @@
     },
     {
       "title": "Du Pont Building",
+      "icon": "robot",
       "description": "Bristol Robotics Lab",
       "polygon": [
         {"lat": 51.501679, "lng": -2.54355},
