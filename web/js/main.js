@@ -26,7 +26,8 @@ function gladiatorsReady() {
     
   google.maps.event.addListener(map, 'zoom_changed', function() {
     $.each(markers, function(i, marker) {
-      marker.icon.scaledSize = new google.maps.Size(marker.icon.size.width * markerScale(), marker.icon.size.height * markerScale())
+      marker.icon.scaledSize = new google.maps.Size(marker.icon.size.width * markerScale(), marker.icon.size.height * markerScale());
+      marker.shadow.scaledSize = new google.maps.Size(marker.shadow.size.width * markerScale(), marker.shadow.size.height * markerScale());
     });
   });
 }
@@ -127,6 +128,12 @@ function plot() {
                 new google.maps.Point(0, 0),
                 new google.maps.Point(19, 24),
                 new google.maps.Size(39 * markerScale(), 49 * markerScale())
+              ),
+              shadow: new google.maps.MarkerImage(
+                "/images/icons/shadow.png",
+                new google.maps.Size(64, 49),
+                new google.maps.Point(0, 0),
+                new google.maps.Point(19, 24)
               )
             });
 
