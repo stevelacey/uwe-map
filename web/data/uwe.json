@@ -157,6 +157,7 @@
     },
     {
       "title": "Halley Nursery",
+      "color": "#e82fd9",
       "icon": "nursery",
       "description": "<a href='http://www.uwesu.org/nursery'>www.uwesu.org/nursery</a>",
       "polygon": [

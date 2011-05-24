@@ -94,13 +94,15 @@ function plot() {
           $.each(poi.polygon, function(i, point) {
             paths[i] = new google.maps.LatLng(point.lat, point.lng);
           });
+          
+          var color = poi.color ? poi.color : data.color;
 
           var polygon = new google.maps.Polygon({
             paths: paths,
-            strokeColor: data.color,
+            strokeColor: color,
             strokeOpacity: 0.8,
             strokeWeight: 2,
-            fillColor: data.color,
+            fillColor: color,
             fillOpacity: 0.35
           });
           
