@@ -43,14 +43,15 @@
       ]
     },
     {
-      "title": "Car park 11",
-      "icon": "11",
+      "title": "Car park 12",
+      "icon": "12",
       "description": "",
       "polygon": [
-        {"lat": 51.502679, "lng": -2.548565},
-        {"lat": 51.502355, "lng": -2.548437},
-        {"lat": 51.502398, "lng": -2.548007},
-        {"lat": 51.502729, "lng": -2.548082}
+        {"lat": 51.502767, "lng": -2.547569},
+        {"lat": 51.502797, "lng": -2.547311},
+        {"lat": 51.502462, "lng": -2.547215},
+        {"lat": 51.502433, "lng": -2.54748},
+        {"lat": 51.502767, "lng": -2.547569}
       ]
     },
     {
@@ -104,6 +105,48 @@
         {"lat": 51.499817, "lng": -2.541363},
         {"lat": 51.499928, "lng": -2.541341},
         {"lat": 51.500183, "lng": -2.541556}
+      ]
+    },
+    {
+      "title": "Car park 21",
+      "icon": "21",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+      "polygon": [
+        {"lat": 51.503525, "lng": -2.553918},
+        {"lat": 51.50316, "lng": -2.553066},
+        {"lat": 51.502582, "lng": -2.55371},
+        {"lat": 51.502701, "lng": -2.553981},
+        {"lat": 51.502954, "lng": -2.554029},
+        {"lat": 51.503178, "lng": -2.554041},
+        {"lat": 51.503355, "lng": -2.553991},
+        {"lat": 51.503525, "lng": -2.553918}
+      ]
+    },
+    {
+      "title": "Car park 22",
+      "icon": "22",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+      "polygon": [
+        {"lat": 51.503615, "lng": -2.553746},
+        {"lat": 51.503819, "lng": -2.55346},
+        {"lat": 51.503876, "lng": -2.553248},
+        {"lat": 51.503929, "lng": -2.552873},
+        {"lat": 51.503838, "lng": -2.552618},
+        {"lat": 51.503741, "lng": -2.552358},
+        {"lat": 51.503245, "lng": -2.552904},
+        {"lat": 51.503609, "lng": -2.553785}
+      ]
+    },
+    {
+      "title": "Car park 23",
+      "icon": "23",
+      "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
+      "polygon": [
+        {"lat": 51.503699, "lng": -2.552159},
+        {"lat": 51.504061, "lng": -2.55165},
+        {"lat": 51.50361, "lng": -2.550582},
+        {"lat": 51.503181, "lng": -2.551064},
+        {"lat": 51.503674, "lng": -2.55217}
       ]
     },
     {
