@@ -2,6 +2,7 @@
   "name": "Car Parks",
   "color": "#254F7A",
   "color": "#BBB",
+  "icons": "/images/icons/car-parks/",
   "poi":[
     {
       "title": "Car park 1",

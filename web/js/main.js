@@ -117,13 +117,13 @@ function plot() {
             infowindow.open(map);
           };
 
-          if(poi.icon) {
+          if(data.icon || poi.icon) {
             var marker = new google.maps.Marker({
               title: poi.title,
               position: polygon.getBounds().getCenter(),
               map: map,
               icon: new google.maps.MarkerImage(
-                "/images/icons/" + file + "/" + poi.icon + ".png",
+                data.icons + (poi.icon ? poi.icon : data.icon) + ".png",
                 new google.maps.Size(39, 49),
                 new google.maps.Point(0, 0),
                 new google.maps.Point(19, 24),

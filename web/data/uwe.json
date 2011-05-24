@@ -1,9 +1,11 @@
 {
   "name": "UWE",
   "color": "#005555",
+  "icons": "/images/icons/",
   "poi":[
     {
       "title": "Centre for Performing Arts",
+      "icon": "arts",
       "description": "<a href='http://www.uwe.ac.uk/cpa'>www.uwe.ac.uk/cpa</a>",
       "polygon": [
         {"lat": 51.497646, "lng": -2.546605},
@@ -19,6 +21,7 @@
     },
     {
       "title": "Drama studios",
+      "icon": "arts",
       "description": "",
       "polygon": [
         {"lat": 51.483601, "lng": -2.528504},
@@ -153,6 +156,7 @@
     },
     {
       "title": "Halley Nursery",
+      "icon": "nursery",
       "description": "<a href='http://www.uwesu.org/nursery'>www.uwesu.org/nursery</a>",
       "polygon": [
         {"lat": 51.501286, "lng": -2.545256},
@@ -204,6 +208,7 @@
     },
     {
       "title": "Reception",
+      "icon": "reception",
       "description": "<a href='http://www.uwe.ac.uk/hsv/reception'>www.uwe.ac.uk/hsv/reception</a>",
       "polygon": [
         {"lat": 51.500004, "lng": -2.547867},

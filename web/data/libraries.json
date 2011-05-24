@@ -1,6 +1,8 @@
 {
   "name": "Libraries",
   "color": "#555",
+  "icons": "/images/icons/",
+  "icon": "library",
   "poi":[
     {
       "title": "Library",

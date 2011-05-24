@@ -1,6 +1,8 @@
 {
   "name": "Sport",
   "color": "#007700",
+  "icons": "/images/icons/",
+  "icon": "sport",
   "poi":[
     {
       "title": "Centre for Sport",

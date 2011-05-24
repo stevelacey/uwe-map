@@ -1,6 +1,7 @@
 {
   "name": "Blocks",
   "color": "#CC0000",
+  "icons": "/images/icons/blocks/",
   "poi":[
     {
       "title": "B Block",

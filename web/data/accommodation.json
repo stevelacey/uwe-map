@@ -1,6 +1,8 @@
 {
   "name": "Accommodation",
   "color": "#8533D6",
+  "icons": "/images/icons/",
+  "icon": "accommodation",
   "poi":[
     {
       "title": "Brecon Court",

@@ -1,6 +1,8 @@
 {
   "name": "Cafés",
   "color": "#555500",
+  "icons": "/images/icons/",
+  "icon": "food",
   "poi":[
     {
       "title": "Traders Café Bar",
