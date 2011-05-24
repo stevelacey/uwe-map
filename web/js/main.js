@@ -89,22 +89,15 @@ function plot() {
       dataType: 'json',
       success: function(data) {
         $.each(data.poi, function(key, poi) {
-          paths = [];
+          var paths = [];
 
           $.each(poi.polygon, function(i, point) {
             paths[i] = new google.maps.LatLng(point.lat, point.lng);
           });
           
           var color = poi.color ? poi.color : data.color;
-
-          var polygon = new google.maps.Polygon({
-            paths: paths,
-            strokeColor: color,
-            strokeOpacity: 0.8,
-            strokeWeight: 2,
-            fillColor: color,
-            fillOpacity: 0.35
-          });
+          var polygon = plotPolygon(paths, color);
+          var polygon_center = polygon.getBounds().getCenter();
           
           var load_infowindow = function() {
             if(infowindow) {
@@ -113,32 +106,17 @@ function plot() {
 
             infowindow = new google.maps.InfoWindow({
               content: poi.title + '<br/>' + poi.description,
-              position: polygon.getBounds().getCenter()
+              position: polygon_center
             });
 
             infowindow.open(map);
           };
 
           if(data.icon || poi.icon) {
-            var marker = new google.maps.Marker({
-              title: poi.title,
-              position: polygon.getBounds().getCenter(),
-              map: map,
-              icon: new google.maps.MarkerImage(
-                data.icons + (poi.icon ? poi.icon : data.icon) + ".png",
-                new google.maps.Size(39, 49),
-                new google.maps.Point(0, 0),
-                new google.maps.Point(19, 24),
-                new google.maps.Size(39 * markerScale(), 49 * markerScale())
-              ),
-              shadow: new google.maps.MarkerImage(
-                "/images/icons/shadow.png",
-                new google.maps.Size(64, 49),
-                new google.maps.Point(0, 0),
-                new google.maps.Point(19, 24)
-              )
-            });
-
+            var icon = poi.icon ? poi.icon : data.icon;
+            
+            var marker = plotMarker(poi.title, polygon_center, data.icons + icon);
+            
             google.maps.event.addListener(marker, 'mouseup', load_infowindow);
             
             markers[markers.length] = marker;
@@ -150,6 +128,38 @@ function plot() {
         });
       }
     });
+  });
+}
+
+function plotMarker(title, position, image) {
+  return new google.maps.Marker({
+    title: title,
+    position: position,
+    map: map,
+    icon: new google.maps.MarkerImage(
+      image + ".png",
+      new google.maps.Size(39, 49),
+      new google.maps.Point(0, 0),
+      new google.maps.Point(19, 24),
+      new google.maps.Size(39 * markerScale(), 49 * markerScale())
+    ),
+    shadow: new google.maps.MarkerImage(
+      "/images/icons/shadow.png",
+      new google.maps.Size(64, 49),
+      new google.maps.Point(0, 0),
+      new google.maps.Point(19, 24)
+    )
+  });
+}
+
+function plotPolygon(paths, color) {
+  return new google.maps.Polygon({
+    paths: paths,
+    strokeColor: color,
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: color,
+    fillOpacity: 0.35
   });
 }
 
