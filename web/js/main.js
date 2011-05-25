@@ -22,6 +22,7 @@ function gladiatorsReady() {
   }
 
   plotBuildings();
+  plotFacilities();
     
   google.maps.event.addListener(map, 'zoom_changed', function() {
     $.each(markers, function(i, marker) {
@@ -99,7 +100,7 @@ function plotBuildings() {
           var polygon_center = polygon.getBounds().getCenter();
           
           var infowindow = function() {
-            loadInfoWindow(poi.title + '<br/>' + poi.description, polygon_center);
+            loadInfoWindow(poi, polygon_center);
           };
 
           if(data.icon || poi.icon) {
@@ -114,6 +115,29 @@ function plotBuildings() {
         });
       }
     });
+  });
+}
+
+function plotFacilities() {
+  $.ajax({
+    url: 'data/facilities.json',
+    dataType: 'json',
+    success: function(data) {
+      $.each(data.categories, function(key, category) {
+        $.each(category.poi, function(key, poi) {
+          var slug = poi.slug ? poi.slug : category.slug;
+          var position = new google.maps.LatLng(poi.position.lat, poi.position.lng);
+          
+          var marker = plotMarker(poi.title, position, "/images/icons/" + slug);
+
+          google.maps.event.addListener(marker, 'mouseup', function() {
+            loadInfoWindow(poi, position);
+          });
+
+          markers[markers.length] = marker;
+        });
+      });
+    }
   });
 }
 
@@ -149,13 +173,13 @@ function plotPolygon(paths, color) {
   });
 }
 
-function loadInfoWindow(content, position) {
+function loadInfoWindow(poi, position) {
   if(current_infowindow) {
     current_infowindow.close();
   }
-
+  
   current_infowindow = new google.maps.InfoWindow({
-    content: content,
+    content: $('.infowindow-template').jqote(poi),
     position: position
   });
 

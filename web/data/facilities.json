@@ -1,0 +1,66 @@
+{
+  "categories":[
+    {
+      "name": "Cash Points",
+      "slug": "cash",
+      "poi":[
+        {
+          "title": "NatWest Bank",
+          "slug": "natwest",
+          "telephone": "0845 302 1753",
+          "website": "http://www.natwest.com",
+          "openinghours": "09:30 to 16:30 (term time), 10:30 to 14:30 (down time)",
+          "position": {
+            "lat": 51.50033, "lng": -2.547741
+          }
+        },
+        {
+          "title": "Cash Point",
+          "description": "",
+          "position": {
+            "lat": 51.500234, "lng": -2.547846
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bars",
+      "slug": "bar",
+      "poi":[
+        {
+          "title": "Red Bar",
+          "description": "Upstairs",
+          "position": {
+            "lat": 51.500141, "lng": -2.547364
+          }
+        }
+      ]
+    },
+    {
+      "name": "Supermarkets",
+      "slug": "supermarket",
+      "poi":[
+        {
+          "title": "SU Shop",
+          "description": "Sandwiches, snacks, emergency beer supplies and UWE memorabilia.",
+          "position": {
+            "lat": 51.500363, "lng": -2.547428
+          }
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "poi":[
+        {
+          "title": "Book Shop",
+          "slug": "book",
+          "description": "",
+          "position": {
+            "lat": 51.500343, "lng": -2.547559
+          }
+        }
+      ]
+    }
+  ]
+}

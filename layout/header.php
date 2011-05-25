@@ -18,6 +18,8 @@
     <script src="/js/hicTech/appManager-min.js"></script>
 
     <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    
+    <script src="/js/jquery/jquery.jqote2.min.js"></script>
 
     <script src="/js/geo.js"></script>
     <script src="/js/main.js"></script>

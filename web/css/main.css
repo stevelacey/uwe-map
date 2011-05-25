@@ -6,3 +6,15 @@
 {
   height: 100%;
 }
+
+.infowindow h2 {
+  margin: 0;
+}
+
+.infowindow p, .infowindow dl dt {
+  margin-top: 5px;
+}
+
+.infowindow dl dt {
+  font-weight: bold;
+}
