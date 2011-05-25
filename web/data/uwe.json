@@ -22,7 +22,6 @@
     {
       "title": "Drama studios",
       "icon": "arts",
-      "description": "",
       "polygon": [
         {"lat": 51.483601, "lng": -2.528504},
         {"lat": 51.483582, "lng": -2.528949},
@@ -103,7 +102,6 @@
     },
     {
       "title": "Felixtowe Court",
-      "description": "",
       "polygon": [
         {"lat": 51.4995, "lng": -2.548957},
         {"lat": 51.499503, "lng": -2.548876},
@@ -170,7 +168,7 @@
     },
     {
       "title": "HP Block",
-      "description": "",
+      "icon": "hp",
       "polygon": [
         {"lat": 51.502265, "lng": -2.551006},
         {"lat": 51.502114, "lng": -2.550637},
@@ -195,7 +193,7 @@
     },
     {
       "title": "Northaven House (HEFCE)",
-      "description": "",
+      "icon": "hefce",
       "polygon": [
         {"lat": 51.500233, "lng": -2.545632},
         {"lat": 51.499969, "lng": -2.545573},

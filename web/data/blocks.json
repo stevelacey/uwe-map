@@ -6,7 +6,6 @@
     {
       "title": "B Block",
       "icon": "b",
-      "description": "",
       "polygon": [
         {"lat": 51.498907, "lng": -2.54826},
         {"lat": 51.498977, "lng": -2.54828},
@@ -71,7 +70,6 @@
     {
       "title": "C Block",
       "icon": "c",
-      "description": "",
       "polygon": [
         {"lat": 51.499623, "lng": -2.548394},
         {"lat": 51.4997, "lng": -2.547809},
@@ -84,7 +82,6 @@
     {
       "title": "D Block",
       "icon": "d",
-      "description": "",
       "polygon": [
         {"lat": 51.500223, "lng": -2.548251},
         {"lat": 51.500259, "lng": -2.547948},
@@ -99,7 +96,6 @@
     {
       "title": "D Block (Continued)",
       "icon": "d",
-      "description": "",
       "polygon": [
         {"lat": 51.500109, "lng": -2.549338},
         {"lat": 51.500136, "lng": -2.549088},
@@ -119,7 +115,6 @@
     {
       "title": "E Block",
       "icon": "e",
-      "description": "",
       "polygon": [
         {"lat": 51.500251, "lng": -2.547951},
         {"lat": 51.500206, "lng": -2.548458},
@@ -155,7 +150,6 @@
     {
       "title": "G Block",
       "icon": "g",
-      "description": "",
       "polygon": [
         {"lat": 51.500358, "lng": -2.547205},
         {"lat": 51.500391, "lng": -2.546846},
@@ -167,7 +161,6 @@
     {
       "title": "H Block",
       "icon": "h",
-      "description": "",
       "polygon": [
         {"lat": 51.500291, "lng": -2.547192},
         {"lat": 51.50032, "lng": -2.546827},
@@ -187,7 +180,6 @@
     {
       "title": "J Block",
       "icon": "j",
-      "description": "",
       "polygon": [
         {"lat": 51.499735, "lng": -2.546837},
         {"lat": 51.499754, "lng": -2.546669},
@@ -201,7 +193,6 @@
     {
       "title": "K Block",
       "icon": "k",
-      "description": "",
       "polygon": [
         {"lat": 51.499754, "lng": -2.547407},
         {"lat": 51.499799, "lng": -2.547071},
@@ -217,7 +208,6 @@
     {
       "title": "L Block",
       "icon": "l",
-      "description": "",
       "polygon": [
         {"lat": 51.499253, "lng": -2.54772},
         {"lat": 51.499268, "lng": -2.547541},
@@ -233,7 +223,6 @@
     {
       "title": "M Block",
       "icon": "m",
-      "description": "",
       "polygon": [
         {"lat": 51.50043, "lng": -2.547238},
         {"lat": 51.500465, "lng": -2.54687},
@@ -245,7 +234,6 @@
     {
       "title": "N Block",
       "icon": "n",
-      "description": "",
       "polygon": [
         {"lat": 51.501099, "lng": -2.547895},
         {"lat": 51.50121, "lng": -2.546859},
@@ -260,7 +248,6 @@
     {
       "title": "P Block",
       "icon": "p",
-      "description": "",
       "polygon": [
         {"lat": 51.501316, "lng": -2.549601},
         {"lat": 51.501198, "lng": -2.549574},
@@ -283,7 +270,6 @@
     {
       "title": "Q Block",
       "icon": "q",
-      "description": "",
       "polygon": [
         {"lat": 51.50172, "lng": -2.548866},
         {"lat": 51.50173, "lng": -2.548858},
@@ -321,7 +307,6 @@
     {
       "title": "R Block",
       "icon": "r",
-      "description": "",
       "polygon": [
         {"lat": 51.502331, "lng": -2.548711},
         {"lat": 51.502317, "lng": -2.548835},
@@ -344,7 +329,6 @@
     {
       "title": "S Block",
       "icon": "s",
-      "description": "",
       "polygon": [
         {"lat": 51.498343, "lng": -2.548866},
         {"lat": 51.498411, "lng": -2.548316},

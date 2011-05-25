@@ -6,7 +6,6 @@
   "poi":[
     {
       "title": "Traders Café Bar",
-      "description": "",
       "polygon": [
         {"lat": 51.484428, "lng": -2.528401},
         {"lat": 51.484409, "lng": -2.528069},
@@ -17,7 +16,6 @@
     },
     {
       "title": "HP / UWE Staff Restaurant",
-      "description": "",
       "polygon": [
         {"lat": 51.500986, "lng": -2.552648},
         {"lat": 51.500787, "lng": -2.552184},

@@ -16,7 +16,6 @@
         },
         {
           "title": "Cash Point",
-          "description": "",
           "position": {
             "lat": 51.500234, "lng": -2.547846
           }
@@ -41,6 +40,20 @@
       "slug": "supermarket",
       "poi":[
         {
+          "title": "Fruit & Veg Stall",
+          "slug": "fruit",
+          "position": {
+            "lat": 51.50033, "lng": -2.547824
+          }
+        },
+        {
+          "title": "Sainsburys",
+          "slug": "sainsburys",
+          "position": {
+            "lat": 51.507392, "lng": -2.552859
+          }
+        },
+        {
           "title": "SU Shop",
           "description": "Sandwiches, snacks, emergency beer supplies and UWE memorabilia.",
           "position": {
@@ -55,9 +68,22 @@
         {
           "title": "Book Shop",
           "slug": "book",
-          "description": "",
           "position": {
             "lat": 51.500343, "lng": -2.547559
+          }
+        },
+        {
+          "title": "Cinema",
+          "slug": "cinema",
+          "position": {
+            "lat": 51.499947, "lng": -2.547908
+          }
+        },
+        {
+          "title": "Student Union",
+          "slug": "su",
+          "position": {
+            "lat": 51.500047, "lng": -2.547664
           }
         }
       ]
