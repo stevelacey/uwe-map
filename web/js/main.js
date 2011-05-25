@@ -99,12 +99,15 @@ function plotBuildings() {
           var polygon = plotPolygon(paths, color);
           var polygon_center = polygon.getBounds().getCenter();
           
+          poi.description = poi.description ? poi.description : data.description;
+          poi.icon = poi.icon ? poi.icon : data.icon;
+          
           var infowindow = function() {
             loadInfoWindow(poi, polygon_center);
           };
 
-          if(data.icon || poi.icon) {
-            var marker = plotMarker(poi.title, polygon_center, data.icons + (poi.icon ? poi.icon : data.icon));
+          if(poi.icon) {
+            var marker = plotMarker(poi.title, polygon_center, data.icons + poi.icon);
             google.maps.event.addListener(marker, 'mouseup', infowindow);
             markers[markers.length] = marker;
           }
@@ -125,10 +128,11 @@ function plotFacilities() {
     success: function(data) {
       $.each(data.categories, function(key, category) {
         $.each(category.poi, function(key, poi) {
-          var slug = poi.slug ? poi.slug : category.slug;
           var position = new google.maps.LatLng(poi.position.lat, poi.position.lng);
-          
-          var marker = plotMarker(poi.title, position, "/images/icons/" + slug);
+
+          poi.slug = poi.slug ? poi.slug : category.slug;
+
+          var marker = plotMarker(poi.title, position, "/images/icons/" + poi.slug);
 
           google.maps.event.addListener(marker, 'mouseup', function() {
             loadInfoWindow(poi, position);
