@@ -1,13 +1,12 @@
 var map;
+
+var current_infowindow;
 var current_position_marker;
 
 var uwe = new google.maps.LatLng(51.50169, -2.545738);
 var user;
 
-var infowindow;
-
 var markers = [];
-var marker_zoom_scale = 25;
 
 function gladiatorsReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
@@ -22,7 +21,7 @@ function gladiatorsReady() {
     getPosition();
   }
 
-  plot();
+  plotBuildings();
     
   google.maps.event.addListener(map, 'zoom_changed', function() {
     $.each(markers, function(i, marker) {
@@ -82,7 +81,7 @@ function geoSuccess(pos) {
   }
 }
 
-function plot() {
+function plotBuildings() {
   $.each(['accommodation', 'blocks', 'cafes', 'car-parks', 'libraries', 'sport', 'uwe'], function(i, file) {
     $.ajax({
       url: 'data/' + file + '.json',
@@ -99,30 +98,17 @@ function plot() {
           var polygon = plotPolygon(paths, color);
           var polygon_center = polygon.getBounds().getCenter();
           
-          var load_infowindow = function() {
-            if(infowindow) {
-              infowindow.close();
-            }
-
-            infowindow = new google.maps.InfoWindow({
-              content: poi.title + '<br/>' + poi.description,
-              position: polygon_center
-            });
-
-            infowindow.open(map);
+          var infowindow = function() {
+            loadInfoWindow(poi.title + '<br/>' + poi.description, polygon_center);
           };
 
           if(data.icon || poi.icon) {
-            var icon = poi.icon ? poi.icon : data.icon;
-            
-            var marker = plotMarker(poi.title, polygon_center, data.icons + icon);
-            
-            google.maps.event.addListener(marker, 'mouseup', load_infowindow);
-            
+            var marker = plotMarker(poi.title, polygon_center, data.icons + (poi.icon ? poi.icon : data.icon));
+            google.maps.event.addListener(marker, 'mouseup', infowindow);
             markers[markers.length] = marker;
           }
           
-          google.maps.event.addListener(polygon, 'mouseup', load_infowindow);
+          google.maps.event.addListener(polygon, 'mouseup', infowindow);
 
           polygon.setMap(map);
         });
@@ -163,8 +149,21 @@ function plotPolygon(paths, color) {
   });
 }
 
+function loadInfoWindow(content, position) {
+  if(current_infowindow) {
+    current_infowindow.close();
+  }
+
+  current_infowindow = new google.maps.InfoWindow({
+    content: content,
+    position: position
+  });
+
+  current_infowindow.open(map);
+}
+
 function markerScale() {
-  return map.getZoom() / marker_zoom_scale < 1 ? map.getZoom() / marker_zoom_scale : 1;
+  return Math.min(map.getZoom() / 30, 1);
 }
 
 function fakePosition() {
