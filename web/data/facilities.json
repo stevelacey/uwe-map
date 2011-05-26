@@ -27,10 +27,62 @@
       "slug": "bar",
       "poi":[
         {
+          "title": "Core 24",
+          "description": "Level 2",
+          "position": {
+            "lat": 51.50023, "lng": -2.547819
+          }
+        },
+        {
+          "title": "Escape Bar",
+          "description": "Level 1",
+          "position": {
+            "lat": 51.500025, "lng": -2.547487
+          }
+        },
+        {
           "title": "Red Bar",
-          "description": "Upstairs",
+          "description": "Level 2",
           "position": {
             "lat": 51.500141, "lng": -2.547364
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cafes",
+      "slug": "food",
+      "poi":[
+        {
+          "title": "OneZone",
+          "description": "Food, Level 2",
+          "position": {
+            "lat": 51.500344, "lng": -2.548329
+          }
+        }
+      ]
+    },
+    {
+      "name": "Coffee",
+      "slug": "coffee",
+      "poi":[
+        {
+          "title": "OneZone Lounge",
+          "description": "Starbucks Coffee! Level 2.",
+          "position": {
+            "lat": 51.500524, "lng": -2.547728
+          }
+        },
+        {
+          "title": "R Block Coffee",
+          "position": {
+            "lat": 51.502582, "lng": -2.548268
+          }
+        },
+        {
+          "title": "S Block Coffee",
+          "position": {
+            "lat": 51.49829, "lng": -2.548484
           }
         }
       ]
@@ -39,6 +91,12 @@
       "name": "Supermarkets",
       "slug": "supermarket",
       "poi":[
+        {
+          "title": "Centre for Sport Shop",
+          "position": {
+            "lat": 51.504007, "lng": -2.547157
+          }
+        },
         {
           "title": "Fruit & Veg Stall",
           "slug": "fruit",
@@ -63,6 +121,18 @@
       ]
     },
     {
+      "name": "Toilets",
+      "slug": "toilet",
+      "poi":[
+        {
+          "title": "Q Block Toilets Level 1",
+          "position": {
+            "lat": 51.501428, "lng": -2.548715
+          }
+        }
+      ]
+    },
+    {
       "name": "Other",
       "poi":[
         {
@@ -77,6 +147,13 @@
           "slug": "cinema",
           "position": {
             "lat": 51.499947, "lng": -2.547908
+          }
+        },
+        {
+          "title": "Doctors",
+          "slug": "doctors",
+          "position": {
+            "lat": 51.502317, "lng": -2.54747
           }
         },
         {
