@@ -1,5 +1,5 @@
         <navigation height="44px"></navigation>
-        <panel id="find" title="Find" icon="42-photos.png">
+        <panel id="find" title="Find" icon="06-magnify.png">
           <page id="list">
             <div data-role="header">
               <h1>Points of Interest</h1>
