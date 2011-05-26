@@ -7,6 +7,18 @@
   height: 100%;
 }
 
+.infowindow h2 {
+  margin: 0;
+}
+
+.infowindow p, .infowindow dl dt {
+  margin-top: 5px;
+}
+
+.infowindow dl dt {
+  font-weight: bold;
+}
+
 nav ul li a {
   background-position: 10px 10px;
   background-repeat: no-repeat;
@@ -19,7 +31,7 @@ nav .block {background-image: url("/images/icons/uwe.png")}
 nav .cafe {background-image: url("/images/icons/cafe.png")}
 nav .car-park {background-image: url("/images/icons/car-park.png")}
 nav .cash {background-image: url("/images/icons/cash.png")}
-nav .coffee {background-image: url("/images/icons/bar.png")}
+nav .coffee {background-image: url("/images/icons/coffee.png")}
 nav .supermarket {background-image: url("/images/icons/supermarket.png")}
 
 nav .block-a {background-image: url("/images/icons/blocks/a.png")}
@@ -71,15 +83,3 @@ nav .car-park-25 {background-image: url("/images/icons/car-parks/25.png")}
 nav .car-park-26 {background-image: url("/images/icons/car-parks/26.png")}
 nav .car-park-27 {background-image: url("/images/icons/car-parks/27.png")}
 nav .car-park-28 {background-image: url("/images/icons/car-parks/28.png")}
-
-.infowindow h2 {
-  margin: 0;
-}
-
-.infowindow p, .infowindow dl dt {
-  margin-top: 5px;
-}
-
-.infowindow dl dt {
-  font-weight: bold;
-}
