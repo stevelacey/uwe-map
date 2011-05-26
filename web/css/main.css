@@ -10,40 +10,67 @@
 nav ul li a {
   background-position: 10px 10px;
   background-repeat: no-repeat;
-  padding: 20px 20px 20px 60px;
+  padding: 22px 0 22px 65px;
 }
 
-nav .bank {
-  background-image: url("/images/icons/natwest.png");
-}
+nav .bank {background-image: url("/images/icons/natwest.png")}
+nav .bar {background-image: url("/images/icons/bar.png")}
+nav .block {background-image: url("/images/icons/uwe.png")}
+nav .cafe {background-image: url("/images/icons/cafe.png")}
+nav .car-park {background-image: url("/images/icons/car-park.png")}
+nav .cash {background-image: url("/images/icons/cash.png")}
+nav .coffee {background-image: url("/images/icons/bar.png")}
+nav .supermarket {background-image: url("/images/icons/supermarket.png")}
 
-nav .bar {
-  background-image: url("/images/icons/bar.png");
-}
-
-nav .block {
-  background-image: url("/images/icons/uwe.png");
-}
-
-nav .cafe {
-  background-image: url("/images/icons/cafe.png");
-}
-
-nav .car-park {
-  background-image: url("/images/icons/car-park.png");
-}
-
-nav .cash {
-  background-image: url("/images/icons/cash.png");
-}
-
-nav .coffee {
-  background-image: url("/images/icons/bar.png");
-}
-
-nav .supermarket {
-  background-image: url("/images/icons/supermarket.png");
-}
+nav .block-a {background-image: url("/images/icons/blocks/a.png")}
+nav .block-b {background-image: url("/images/icons/blocks/b.png")}
+nav .block-c {background-image: url("/images/icons/blocks/c.png")}
+nav .block-d {background-image: url("/images/icons/blocks/d.png")}
+nav .block-d {background-image: url("/images/icons/blocks/d.png")}
+nav .block-e {background-image: url("/images/icons/blocks/e.png")}
+nav .block-f {background-image: url("/images/icons/blocks/f.png")}
+nav .block-g {background-image: url("/images/icons/blocks/g.png")}
+nav .block-h {background-image: url("/images/icons/blocks/h.png")}
+nav .block-i {background-image: url("/images/icons/blocks/i.png")}
+nav .block-j {background-image: url("/images/icons/blocks/j.png")}
+nav .block-k {background-image: url("/images/icons/blocks/k.png")}
+nav .block-l {background-image: url("/images/icons/blocks/l.png")}
+nav .block-m {background-image: url("/images/icons/blocks/m.png")}
+nav .block-n {background-image: url("/images/icons/blocks/n.png")}
+nav .block-o {background-image: url("/images/icons/blocks/o.png")}
+nav .block-p {background-image: url("/images/icons/blocks/p.png")}
+nav .block-q {background-image: url("/images/icons/blocks/q.png")}
+nav .block-r {background-image: url("/images/icons/blocks/r.png")}
+nav .block-s {background-image: url("/images/icons/blocks/s.png")}
+ 
+nav .car-park-1 {background-image: url("/images/icons/car-parks/1.png")}
+nav .car-park-2 {background-image: url("/images/icons/car-parks/2.png")}
+nav .car-park-3 {background-image: url("/images/icons/car-parks/3.png")}
+nav .car-park-4 {background-image: url("/images/icons/car-parks/4.png")}
+nav .car-park-5 {background-image: url("/images/icons/car-parks/5.png")}
+nav .car-park-6 {background-image: url("/images/icons/car-parks/6.png")}
+nav .car-park-7 {background-image: url("/images/icons/car-parks/7.png")}
+nav .car-park-8 {background-image: url("/images/icons/car-parks/8.png")}
+nav .car-park-9 {background-image: url("/images/icons/car-parks/9.png")}
+nav .car-park-10 {background-image: url("/images/icons/car-parks/10.png")}
+nav .car-park-11 {background-image: url("/images/icons/car-parks/11.png")}
+nav .car-park-12 {background-image: url("/images/icons/car-parks/12.png")}
+nav .car-park-13 {background-image: url("/images/icons/car-parks/13.png")}
+nav .car-park-14 {background-image: url("/images/icons/car-parks/14.png")}
+nav .car-park-15 {background-image: url("/images/icons/car-parks/15.png")}
+nav .car-park-16 {background-image: url("/images/icons/car-parks/16.png")}
+nav .car-park-17 {background-image: url("/images/icons/car-parks/17.png")}
+nav .car-park-18 {background-image: url("/images/icons/car-parks/18.png")}
+nav .car-park-19 {background-image: url("/images/icons/car-parks/19.png")}
+nav .car-park-20 {background-image: url("/images/icons/car-parks/20.png")}
+nav .car-park-21 {background-image: url("/images/icons/car-parks/21.png")}
+nav .car-park-22 {background-image: url("/images/icons/car-parks/22.png")}
+nav .car-park-23 {background-image: url("/images/icons/car-parks/23.png")}
+nav .car-park-24 {background-image: url("/images/icons/car-parks/24.png")}
+nav .car-park-25 {background-image: url("/images/icons/car-parks/25.png")}
+nav .car-park-26 {background-image: url("/images/icons/car-parks/26.png")}
+nav .car-park-27 {background-image: url("/images/icons/car-parks/27.png")}
+nav .car-park-28 {background-image: url("/images/icons/car-parks/28.png")}
 
 .infowindow h2 {
   margin: 0;
