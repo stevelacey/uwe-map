@@ -7,6 +7,31 @@
   height: 100%;
 }
 
+nav ul li a {
+  background-repeat: no-repeat;
+  padding-left: 50px;
+}
+
+nav .bar {
+  background-image: url("/images/icons/bar.png");
+}
+
+nav .cafe {
+  background-image: url("/images/icons/cafe.png");
+}
+
+nav .cash {
+  background-image: url("/images/icons/cash.png");
+}
+
+nav .coffee {
+  background-image: url("/images/icons/bar.png");
+}
+
+nav .supermarket {
+  background-image: url("/images/icons/supermarket.png");
+}
+
 .infowindow h2 {
   margin: 0;
 }

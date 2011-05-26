@@ -4,13 +4,14 @@
               <h1>Points of Interest</h1>
             </div>
 
-            <div data-role="content">
+            <nav data-role="content">
               <ul data-role="listview">
-                <li><a href="/find/coffee">Coffee</a></li>
-                <li><a href="/find/bar">Bar</a></li>
-                <li><a href="/find/food">Food</a></li>
-                <li><a href="/find/supermarket">Supermarket</a></li>
+                <li class="arrow"><a href="#bars" class="bar">Bars</a></li>
+                <li class="arrow"><a href="#cafes" class="cafe">Caf&eacute;s</a></li>
+                <li class="arrow"><a href="#cash" class="cash">Cash Points</a></li>
+                <li class="arrow"><a href="#coffee" class="coffee">Coffee</a></li>
+                <li class="arrow"><a href="#supermarkets" class="supermarket">Supermarkets</a></li>
               </ul>
-            </div>
+            </nav>
           </page>
         </panel>
