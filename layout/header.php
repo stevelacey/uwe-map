@@ -26,7 +26,9 @@
 
     <?php if (strstr($_SERVER['HTTP_HOST'], 'i7.stevelacey.net')) : ?>
       <script src="/js/geo-fake.js"></script>
-      <script src="/js/live.js"></script>
+      <?php if(!strstr($_SERVER['HTTP_USER_AGENT'], 'iPhone Simulator')) : ?>
+        <script src="/js/live.js"></script>
+      <?php endif ?>
     <?php endif ?>
   </head>
   <body data-appml-onload="gladiatorsReady()">
