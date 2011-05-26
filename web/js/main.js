@@ -132,7 +132,7 @@ function plotFacilities() {
 
           poi.slug = poi.slug ? poi.slug : category.slug;
 
-          var marker = plotMarker(poi.title, position, "/images/icons/" + poi.slug);
+          var marker = plotMarker(poi.title, position, "/images/markers/" + poi.slug);
 
           google.maps.event.addListener(marker, 'mouseup', function() {
             loadInfoWindow(poi, position);
@@ -158,7 +158,7 @@ function plotMarker(title, position, image) {
       new google.maps.Size(39 * markerScale(), 49 * markerScale())
     ),
     shadow: new google.maps.MarkerImage(
-      "/images/icons/shadow.png",
+      "/images/markers/shadow.png",
       new google.maps.Size(64, 49),
       new google.maps.Point(0, 0),
       new google.maps.Point(19, 24)

@@ -1,7 +1,7 @@
 {
   "name": "Sport",
   "color": "#007700",
-  "icons": "/images/icons/",
+  "icons": "/images/markers/",
   "icon": "sport",
   "poi":[
     {

@@ -1,7 +1,7 @@
 {
   "name": "Accommodation",
   "color": "#8533D6",
-  "icons": "/images/icons/",
+  "icons": "/images/markers/",
   "icon": "accommodation",
   "poi":[
     {

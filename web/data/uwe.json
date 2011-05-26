@@ -1,7 +1,7 @@
 {
   "name": "UWE",
   "color": "#666",
-  "icons": "/images/icons/",
+  "icons": "/images/markers/",
   "poi":[
     {
       "title": "Centre for Performing Arts",

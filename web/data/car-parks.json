@@ -2,7 +2,7 @@
   "name": "Car Parks",
   "color": "#254F7A",
   "color": "#BBB",
-  "icons": "/images/icons/car-parks/",
+  "icons": "/images/markers/car-parks/",
   "description": "<a href='http://www.uwe.ac.uk/hsv/transport/cp.shtml'>Car parking at UWE Bristol</a>",
   "poi":[
     {

@@ -14,6 +14,9 @@ nav ul li a {
 
 nav .bar {
   background-image: url("/images/icons/bar.png");
+
+nav .block {
+  background-image: url("/images/icons/uwe.png");
 }
 
 nav .cafe {
