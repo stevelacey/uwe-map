@@ -50,9 +50,22 @@
       ]
     },
     {
-      "name": "Cafes",
+      "name": "Cafés",
       "slug": "food",
       "poi":[
+        {
+          "title": "Cribs Café",
+          "position": {
+            "lat": 51.501494, "lng": -2.548766
+          }
+        },
+        {
+          "title": "Escape Bar: Hot Food",
+          "description": "Level 1",
+          "position": {
+            "lat": 51.50006, "lng": -2.547424
+          }
+        },
         {
           "title": "OneZone",
           "description": "Food, Level 2",
@@ -67,6 +80,19 @@
       "slug": "coffee",
       "poi":[
         {
+          "title": "B Block Coffee Shop",
+          "description": "",
+          "position": {
+            "lat": 51.49908, "lng": -2.548221
+          }
+        },
+        {
+          "title": "Pour Moi Coffee Machine",
+          "position": {
+            "lat": 51.500497, "lng": -2.547519
+          }
+        },
+        {
           "title": "OneZone Lounge",
           "description": "Starbucks Coffee! Level 2.",
           "position": {
@@ -74,13 +100,13 @@
           }
         },
         {
-          "title": "R Block Coffee",
+          "title": "R Block Coffee Shop",
           "position": {
             "lat": 51.502582, "lng": -2.548268
           }
         },
         {
-          "title": "S Block Coffee",
+          "title": "S Block Coffee Shop",
           "position": {
             "lat": 51.49829, "lng": -2.548484
           }
@@ -125,16 +151,24 @@
       "slug": "toilet",
       "poi":[
         {
-          "title": "Q Block Toilets Level 1",
+          "title": "Q Block Toilets",
+          "description": "Level 1",
           "position": {
             "lat": 51.501428, "lng": -2.548715
+          }
+        },
+        {
+          "title": "Escape Bar Toilets",
+          "description": "Level 1 & 2",
+          "position": {
+            "lat": 51.500047, "lng": -2.547664
           }
         }
       ]
     },
     {
       "name": "Other",
-      "poi":[
+      "poi":[	      
         {
           "title": "Book Shop",
           "slug": "book",
@@ -151,16 +185,24 @@
         },
         {
           "title": "Doctors",
-          "slug": "doctors",
+          "slug": "doctor",
           "position": {
             "lat": 51.502317, "lng": -2.54747
           }
         },
         {
+          "title": "Hub Radio",
+          "slug": "doctor",
+          "position": {
+            "lat": 51.500025, "lng": -2.547658
+          }
+        },
+        {
           "title": "Student Union",
           "slug": "su",
+          "description": "Level 4",
           "position": {
-            "lat": 51.500047, "lng": -2.547664
+            "lat": 51.500046, "lng": -2.547628
           }
         }
       ]
