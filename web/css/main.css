@@ -8,12 +8,18 @@
 }
 
 nav ul li a {
+  background-position: 10px 10px;
   background-repeat: no-repeat;
-  padding-left: 50px;
+  padding: 20px 20px 20px 60px;
+}
+
+nav .bank {
+  background-image: url("/images/icons/natwest.png");
 }
 
 nav .bar {
   background-image: url("/images/icons/bar.png");
+}
 
 nav .block {
   background-image: url("/images/icons/uwe.png");
@@ -21,6 +27,10 @@ nav .block {
 
 nav .cafe {
   background-image: url("/images/icons/cafe.png");
+}
+
+nav .car-park {
+  background-image: url("/images/icons/car-park.png");
 }
 
 nav .cash {
