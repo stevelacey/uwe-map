@@ -7,6 +7,7 @@ var uwe = new google.maps.LatLng(51.50169, -2.545738);
 var user;
 
 var markers = [];
+var blocks_and_car_parks = [];
 
 function gladiatorsReady() {
   map = new google.maps.Map($('#map .canvas').get(0), {
@@ -23,6 +24,18 @@ function gladiatorsReady() {
 
   plotBuildings();
   plotFacilities();
+  
+  $("#blocks a, #car-parks a").click(function(event) {
+    var marker = blocks_and_car_parks[$(this).attr('href').replace('#', '')];
+    
+    if(marker) {
+      appML.goTo("#map", "swap");
+      map.setCenter(marker.position);
+      map.setZoom(19);
+      bounce(marker);
+      loadInfoWindow(marker.poi, marker.position);
+    }
+  });
     
   google.maps.event.addListener(map, 'zoom_changed', function() {
     $.each(markers, function(i, marker) {
@@ -107,9 +120,13 @@ function plotBuildings() {
           };
 
           if(poi.icon) {
-            var marker = plotMarker(poi.title, polygon_center, data.icons + poi.icon);
+            var marker = plotMarker(poi, polygon_center, data.icons + poi.icon);
             google.maps.event.addListener(marker, 'mouseup', infowindow);
             markers[markers.length] = marker;
+            
+            if(file == 'blocks' || file == 'car-parks') {
+              blocks_and_car_parks[poi.icon] = marker;
+            }
           }
           
           google.maps.event.addListener(polygon, 'mouseup', infowindow);
@@ -132,7 +149,7 @@ function plotFacilities() {
 
           poi.slug = poi.slug ? poi.slug : category.slug;
 
-          var marker = plotMarker(poi.title, position, "/images/markers/" + poi.slug);
+          var marker = plotMarker(poi, position, "/images/markers/" + poi.slug);
 
           google.maps.event.addListener(marker, 'mouseup', function() {
             loadInfoWindow(poi, position);
@@ -145,10 +162,11 @@ function plotFacilities() {
   });
 }
 
-function plotMarker(title, position, image) {
+function plotMarker(poi, position, image) {
   return new google.maps.Marker({
-    title: title,
+    title: poi.title,
     position: position,
+    poi: poi,
     map: map,
     icon: new google.maps.MarkerImage(
       image + ".png",
@@ -188,6 +206,14 @@ function loadInfoWindow(poi, position) {
   });
 
   current_infowindow.open(map);
+}
+
+function bounce(marker) {
+  marker.setAnimation(google.maps.Animation.BOUNCE);
+
+  setTimeout(function() {
+    marker.setAnimation(null);
+  }, 200);
 }
 
 function markerScale() {
